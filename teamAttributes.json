@@ -1,0 +1,10 @@
+{
+	"tank": 4,
+	"physicalDmg": 6,
+	"magicDmg": 4,
+	"cc": 4.5,
+	"mobility": 5,
+	"roam": 3,
+	"peel": 3.5,
+	"engage": 4.5
+}
