@@ -59,11 +59,11 @@
 			"split": 0
 		},
 		"ahri": {
-			"top": 0,
-			"jgl": 0,
+			"top": 2,
+			"jgl": 2,
 			"mid": 2,
-			"bot": 1,
-			"supp": 1,
+			"bot": 2,
+			"supp": 2,
 
 			"assassin": 2,
 			"mage": 2,
