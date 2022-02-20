@@ -1,0 +1,4492 @@
+{
+	"filters": {
+		"top": 0,
+		"jgl": 0,
+		"mid": 0,
+		"bot": 0,
+		"supp": 0,
+
+		"assassin": 0,
+		"mage": 0,
+		"tank": 0,
+		"adc": 0,
+		"fighter": 0,
+		"enchanter": 0,
+
+		"physicalDmg": 0,
+		"magicDmg": 0,
+		"crit": 0,
+		"cc": 0,
+		"mobility": 0,
+		"roam": 0,
+		"peel": 0,
+		"engage": 0,
+		"split": 0
+	},
+	"teamAttributes": {
+		"tank": 4,
+		"physicalDmg": 6,
+		"magicDmg": 4,
+		"cc": 4.5,
+		"mobility": 5,
+		"roam": 3,
+		"peel": 3.5,
+		"engage": 4.5
+	},
+	"champs": {
+		"aatrox": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 0
+		},
+		"ahri": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 2,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 1,
+			"engage": 1,
+			"split": 0
+		},
+		"akali": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 2,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"akshan": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 0,
+			"split": 0
+		},
+		"alistar": {
+			"top": 0,
+			"jgl": 1,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"amumu": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 2,
+			"engage": 2,
+			"split": 0
+		},
+		"anivia": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 0
+		},
+		"annie": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"aphelios": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"ashe": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 2,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"aurelionsol": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 2,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"azir": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"bard": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 1,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 2,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"blitzcrank": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"brand": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"braum": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 2,
+			"engage": 2,
+			"split": 0
+		},
+		"caitlyn": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 0
+		},
+		"camille": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 2
+		},
+		"cassiopeia": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"chogath": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 2,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"corki": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 2,
+			"crit": 1,
+			"cc": 0,
+			"mobility": 1,
+			"roam": 2,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"darius": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 1
+		},
+		"diana": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 2,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 1
+		},
+		"drmundo": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 1
+		},
+		"draven": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"ekko": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 2,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"elise": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"evelynn": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 2,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 0,
+			"split": 0
+		},
+		"ezreal": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 1,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 1,
+			"crit": 1,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"fiddlesticks": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"fiora": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 2
+		},
+		"fizz": {
+			"top": 1,
+			"jgl": 1,
+			"mid": 2,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 2,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"galio": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 2,
+			"engage": 1,
+			"split": 0
+		},
+		"gangplank": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 0,
+			"adc": 1,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 1
+		},
+		"garen": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 1,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 1
+		},
+		"gnar": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"gragas": {
+			"top": 2,
+			"jgl": 2,
+			"mid": 2,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 2,
+			"engage": 2,
+			"split": 0
+		},
+		"graves": {
+			"top": 2,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 2,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"gwen": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 1,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 2
+		},
+		"hecarim": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 2,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"heimerdinger": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"illaoi": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 2
+		},
+		"irelia": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 1,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 2
+		},
+		"ivern": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 2,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 2,
+			"engage": 1,
+			"split": 0
+		},
+		"janna": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 2,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 2,
+			"engage": 1,
+			"split": 0
+		},
+		"jarvaniv": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"jax": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 1,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 2
+		},
+		"jayce": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 0,
+			"adc": 1,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 1,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 1
+		},
+		"jhin": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"jinx": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"kaisa": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 1,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"kalista": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"karma": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 2,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 1,
+			"split": 0
+		},
+		"karthus": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"kassadin": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 2,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 2,
+			"peel": 0,
+			"engage": 2,
+			"split": 1
+		},
+		"katarina": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 2,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"kayle": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 1,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 2,
+			"crit": 1,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 2,
+			"engage": 0,
+			"split": 2
+		},
+		"kayn": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 2,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"kennen": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 1
+		},
+		"khazix": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 2,
+			"mage": 0,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"kindred": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 2,
+			"engage": 0,
+			"split": 0
+		},
+		"kled": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 2,
+			"peel": 0,
+			"engage": 2,
+			"split": 1
+		},
+		"kogmaw": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 2,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 0
+		},
+		"leblanc": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 2,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 2,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"leesin": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"leona": {
+			"top": 1,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 2,
+			"engage": 2,
+			"split": 0
+		},
+		"lillia": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"lissandra": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 2,
+			"engage": 2,
+			"split": 0
+		},
+		"lucian": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 1,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 1,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"lulu": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 2,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 2,
+			"engage": 1,
+			"split": 0
+		},
+		"lux": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 1,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 1,
+			"engage": 1,
+			"split": 0
+		},
+		"malphite": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"malzahar": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 1,
+			"split": 0
+		},
+		"maokai": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 2,
+			"engage": 1,
+			"split": 0
+		},
+		"masteryi": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 2,
+			"mage": 0,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 1
+		},
+		"missfortune": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 1,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"mordekaiser": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 0,
+			"split": 1
+		},
+		"morgana": {
+			"top": 0,
+			"jgl": 1,
+			"mid": 2,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 1,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 2,
+			"engage": 1,
+			"split": 0
+		},
+		"nami": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 2,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"nasus": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 2
+		},
+		"nautilus": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 2,
+			"engage": 2,
+			"split": 0
+		},
+		"neeko": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"nidalee": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 1,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"nocturne": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 2,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 1,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 2,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"nunu": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"olaf": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 1
+		},
+		"orianna": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 1,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"ornn": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"pantheon": {
+			"top": 2,
+			"jgl": 2,
+			"mid": 2,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 2,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 2,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"poppy": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 1,
+			"engage": 1,
+			"split": 0
+		},
+		"pyke": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 2,
+			"mage": 0,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"qiyana": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 2,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 2,
+			"mage": 0,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"quinn": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 2,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 2,
+			"peel": 0,
+			"engage": 1,
+			"split": 1
+		},
+		"rakan": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 1,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 2,
+			"engage": 2,
+			"split": 0
+		},
+		"rammus": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 2,
+			"engage": 2,
+			"split": 0
+		},
+		"reksai": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"rell": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"renataglasc": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 2,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 2,
+			"engage": 2,
+			"split": 0
+		},
+		"renekton": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 1,
+			"engage": 1,
+			"split": 0
+		},
+		"rengar": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 2,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"riven": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 1,
+			"engage": 1,
+			"split": 0
+		},
+		"rumble": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"ryze": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 2,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"samira": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"sejuani": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"senna": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"seraphine": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 1,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"sett": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 2
+		},
+		"shaco": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 2,
+			"mage": 1,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 2,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 0,
+			"split": 2
+		},
+		"shen": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 2,
+			"peel": 2,
+			"engage": 1,
+			"split": 2
+		},
+		"shyvana": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"singed": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 1
+		},
+		"sion": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 0,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 1,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 2
+		},
+		"sivir": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"skarner": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 1,
+			"split": 0
+		},
+		"sona": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 2,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"soraka": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 2,
+
+			"physicalDmg": 0,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 2,
+			"engage": 0,
+			"split": 0
+		},
+		"swain": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"sylas": {
+			"top": 1,
+			"jgl": 1,
+			"mid": 2,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"syndra": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"tahmkench": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 2,
+			"engage": 1,
+			"split": 0
+		},
+		"taliyah": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 2,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"talon": {
+			"top": 0,
+			"jgl": 2,
+			"mid": 2,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 2,
+			"mage": 0,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"taric": {
+			"top": 0,
+			"jgl": 1,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 1,
+
+			"physicalDmg": 1,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 2,
+			"engage": 1,
+			"split": 0
+		},
+		"teemo": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 1,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 2,
+			"crit": 1,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 2
+		},
+		"thresh": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 2,
+			"adc": 1,
+			"fighter": 0,
+			"enchanter": 1,
+
+			"physicalDmg": 1,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 2,
+			"engage": 2,
+			"split": 0
+		},
+		"tristana": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 1,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 1,
+			"engage": 1,
+			"split": 1
+		},
+		"trundle": {
+			"top": 2,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 2
+		},
+		"tryndamere": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 2
+		},
+		"twistedfate": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 1,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 1,
+			"magicDmg": 2,
+			"crit": 1,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 2,
+			"peel": 1,
+			"engage": 1,
+			"split": 1
+		},
+		"twitch": {
+			"top": 0,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 2,
+			"supp": 1,
+
+			"assassin": 1,
+			"mage": 1,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 2,
+			"crit": 2,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"udyr": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 1,
+			"engage": 0,
+			"split": 1
+		},
+		"urgot": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 1,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 1,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 2
+		},
+		"varus": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 1,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"vayne": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"veigar": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 2,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 1,
+			"split": 0
+		},
+		"velkoz": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"vex": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"vi": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"viego": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"viktor": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 0,
+			"split": 0
+		},
+		"vladimir": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"volibear": {
+			"top": 2,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 1
+		},
+		"warwick": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 1
+		},
+		"wukong": {
+			"top": 2,
+			"jgl": 1,
+			"mid": 1,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 1
+		},
+		"xayah": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"xerath": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"xinzhao": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 1,
+			"engage": 1,
+			"split": 1
+		},
+		"yasuo": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"yone": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 1,
+			"supp": 0,
+
+			"assassin": 1,
+			"mage": 0,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 2,
+			"cc": 1,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 2,
+			"split": 0
+		},
+		"yorick": {
+			"top": 2,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 2,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 0,
+			"cc": 0,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 0,
+			"engage": 0,
+			"split": 2
+		},
+		"yuumi": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 0,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 2,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 0,
+			"peel": 2,
+			"engage": 1,
+			"split": 0
+		},
+		"zac": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 1,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 1,
+			"tank": 2,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 0
+		},
+		"zed": {
+			"top": 1,
+			"jgl": 2,
+			"mid": 2,
+			"bot": 1,
+			"supp": 1,
+
+			"assassin": 2,
+			"mage": 0,
+			"tank": 1,
+			"adc": 0,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 0,
+			"crit": 1,
+			"cc": 0,
+			"mobility": 2,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 1
+		},
+		"zeri": {
+			"top": 1,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 2,
+			"supp": 0,
+
+			"assassin": 0,
+			"mage": 0,
+			"tank": 0,
+			"adc": 2,
+			"fighter": 1,
+			"enchanter": 0,
+
+			"physicalDmg": 2,
+			"magicDmg": 1,
+			"crit": 1,
+			"cc": 0,
+			"mobility": 1,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"ziggs": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 2,
+			"supp": 1,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 2,
+			"split": 1
+		},
+		"zilean": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 1,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 1,
+			"roam": 0,
+			"peel": 2,
+			"engage": 1,
+			"split": 0
+		},
+		"zoe": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 2,
+			"bot": 0,
+			"supp": 1,
+
+			"assassin": 2,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 1,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 0,
+			"engage": 1,
+			"split": 0
+		},
+		"zyra": {
+			"top": 0,
+			"jgl": 0,
+			"mid": 1,
+			"bot": 0,
+			"supp": 2,
+
+			"assassin": 0,
+			"mage": 2,
+			"tank": 0,
+			"adc": 0,
+			"fighter": 0,
+			"enchanter": 0,
+
+			"physicalDmg": 0,
+			"magicDmg": 2,
+			"crit": 0,
+			"cc": 2,
+			"mobility": 0,
+			"roam": 1,
+			"peel": 1,
+			"engage": 1,
+			"split": 0
+		}
+	},
+	"synergies": {
+		"aatrox": {
+			"goodvs": ["gragas", "renekton", "jayce", "gwen", "gangplank", "vladimir", "gnar", "akali", "sett", "sion", "akshan", "tryndamere", "graves", "riven", "camille", "jax", "warwick", "yasuo", "tahmkench", "darius", "kennen", "volibear", "illaoi", "yone", "teemo", "nasus", "poppy", "quinn", "trundle", "shen", "drmundo", "mordekaiser", "kayle", "wukong", "fiora", "vayne", "kled", "chogath", "ornn", "urgot", "malphite", "irelia", "garen", "yorick", "singed"],
+			"goodwith": ["nunu", "rammus", "zac", "shyvana", "diana", "ekko", "warwick", "elise", "sejuani", "volibear", "trundle", "fiddlesticks", "masteryi", "vi", "graves", "amumu", "shaco", "nocturne", "lillia", "khazix", "kindred", "evelynn", "gwen", "udyr", "jarvaniv", "hecarim", "nidalee", "xinzhao", "poppy", "viego", "rengar", "gragas", "reksai", "jax", "kayn", "talon", "karthus", "qiyana", "zed", "leesin", "olaf"]
+		},
+		"ahri": {
+			"goodvs": ["ryze", "azir", "twistedfate", "leblanc", "corki", "orianna", "jayce", "zeri", "syndra", "galio", "pantheon", "sylas", "akali", "yone", "zoe", "neeko", "qiyana", "ekko", "lissandra", "vladimir", "vex", "talon", "viktor", "kassadin", "cassiopeia", "velkoz", "zed", "irelia", "katarina", "anivia", "malzahar", "annie", "lux", "akshan", "yasuo", "xerath", "fizz", "diana", "veigar", "brand"],
+			"goodwith": ["masteryi", "nunu", "trundle", "vi", "rammus", "nocturne", "volibear", "shyvana", "graves", "khazix", "warwick", "zac", "shaco", "sejuani", "diana", "xinzhao", "ekko", "poppy", "viego", "hecarim", "lillia", "kayn", "udyr", "kindred", "reksai", "fiddlesticks", "jarvaniv", "amumu", "elise", "talon", "gwen", "rengar", "jax", "evelynn", "zed", "qiyana", "nidalee", "leesin", "olaf"]
+		},
+		"akali": {
+			"goodvs": ["ryze", "syndra", "leblanc", "twistedfate", "zoe", "irelia", "sylas", "corki", "xerath", "zed", "orianna", "viktor", "ekko", "yone", "cassiopeia", "katarina", "qiyana", "velkoz", "fizz", "neeko", "yasuo", "vladimir", "talon", "anivia", "annie", "diana", "lux", "jayce", "pantheon", "kassadin", "vex", "lissandra", "zeri", "akshan", "galio", "ahri", "brand", "veigar", "malzahar"],
+			"goodwith": ["masteryi", "trundle", "rammus", "zac", "shyvana", "volibear", "nunu", "vi", "fiddlesticks", "lillia", "graves", "sejuani", "diana", "warwick", "nocturne", "ekko", "shaco", "amumu", "kindred", "hecarim", "poppy", "kayn", "khazix", "jax", "viego", "xinzhao", "udyr", "reksai", "talon", "gwen", "elise", "jarvaniv", "zed", "evelynn", "qiyana", "rengar", "olaf", "leesin", "nidalee"]
+		},
+		"akshan": {
+			"goodvs": ["ryze", "corki", "leblanc", "kassadin", "azir", "sylas", "twistedfate", "akali", "zoe", "syndra", "katarina", "orianna", "zeri", "jayce", "ziggs", "qiyana", "talon", "ekko", "yone", "xerath", "zed", "neeko", "fizz", "lissandra", "galio", "cassiopeia", "ahri", "vex", "vladimir", "malzahar", "velkoz", "viktor", "lux", "malphite", "brand", "annie", "irelia", "diana", "veigar", "pantheon", "yasuo", "anivia"],
+			"goodwith": ["fiddlesticks", "rammus", "zac", "shyvana", "nunu", "diana", "ekko", "sejuani", "lillia", "trundle", "amumu", "shaco", "karthus", "volibear", "warwick", "vi", "masteryi", "udyr", "poppy", "nocturne", "evelynn", "gwen", "elise", "jarvaniv", "khazix", "hecarim", "nidalee", "graves", "xinzhao", "kayn", "kindred", "gragas", "viego", "talon", "zed", "jax", "rengar", "leesin", "reksai", "qiyana", "olaf"]
+		},
+		"alistar": {
+			"goodvs": ["pantheon", "malphite", "yuumi", "thresh", "vex", "nautilus", "pyke", "braum", "seraphine", "taric", "leona", "maokai", "blitzcrank", "rakan", "karma", "galio", "bard", "rell", "xerath", "shaco", "nami", "lux", "zilean", "lulu", "veigar", "soraka", "zyra", "morgana", "sona", "velkoz", "senna", "brand", "swain", "janna"],
+			"goodwith": ["veigar", "ziggs", "zeri", "vayne", "yasuo", "sivir", "missfortune", "samira", "twitch", "senna", "tristana", "jhin", "jinx", "kaisa", "ashe", "ezreal", "xayah", "draven", "aphelios", "varus", "lucian", "kalista", "caitlyn"]
+		},
+		"amumu": {
+			"goodvs": ["gragas", "qiyana", "leesin", "reksai", "nidalee", "rengar", "talon", "evelynn", "jax", "viego", "karthus", "gwen", "fiddlesticks", "udyr", "olaf", "rammus", "jarvaniv", "poppy", "elise", "kindred", "xinzhao", "zed", "warwick", "khazix", "graves", "kayn", "nocturne", "vi", "sejuani", "shaco", "shyvana", "hecarim", "masteryi", "diana", "volibear", "ekko", "lillia", "nunu", "zac", "trundle"],
+			"goodwith": ["kayle", "urgot", "drmundo", "garen", "yorick", "quinn", "trundle", "veigar", "nasus", "fizz", "yone", "diana", "malzahar", "akshan", "irelia", "yasuo", "viktor", "vayne", "yasuo", "lux", "katarina", "ornn", "yone", "vladimir", "ahri", "anivia", "teemo", "cassiopeia", "irelia", "shen", "tryndamere", "fiora", "annie", "xerath", "chogath", "sion", "ekko", "mordekaiser", "sett", "volibear", "jax", "zed", "kassadin", "lissandra", "akali", "riven", "tahmkench", "darius", "malphite", "vex", "talon", "akali", "orianna", "sylas", "camille", "illaoi", "qiyana", "gnar", "corki", "aatrox", "jayce", "gangplank", "gwen", "renekton", "syndra", "leblanc"]
+		},
+		"anivia": {
+			"goodvs": ["ryze", "twistedfate", "neeko", "azir", "vladimir", "leblanc", "lissandra", "syndra", "akshan", "vex", "orianna", "yone", "sylas", "zoe", "jayce", "talon", "ekko", "galio", "yasuo", "corki", "zeri", "cassiopeia", "qiyana", "zed", "irelia", "akali", "annie", "kassadin", "katarina", "lux", "viktor", "veigar", "brand", "malzahar", "diana", "fizz", "ahri", "ziggs", "velkoz", "xerath"],
+			"goodwith": ["nocturne", "masteryi", "reksai", "warwick", "trundle", "rammus", "volibear", "vi", "khazix", "shaco", "viego", "poppy", "graves", "nunu", "diana", "xinzhao", "zac", "sejuani", "ekko", "jarvaniv", "shyvana", "kayn", "hecarim", "jax", "kindred", "udyr", "elise", "amumu", "lillia", "qiyana", "rengar", "evelynn", "fiddlesticks", "zed", "gwen", "nidalee", "talon", "olaf", "leesin"]
+		},
+		"annie": {
+			"goodvs": ["twistedfate", "ryze", "leblanc", "zoe", "vex", "corki", "syndra", "yasuo", "zeri", "akshan", "orianna", "katarina", "sylas", "talon", "yone", "akali", "vladimir", "jayce", "lissandra", "qiyana", "galio", "irelia", "cassiopeia", "zed", "brand", "ahri", "lux", "kassadin", "ziggs", "anivia", "neeko", "ekko", "velkoz", "xerath", "viktor", "malzahar", "fizz", "veigar", "kayle", "diana"],
+			"goodwith": ["trundle", "masteryi", "graves", "nocturne", "khazix", "rammus", "zac", "vi", "nunu", "volibear", "hecarim", "warwick", "sejuani", "xinzhao", "jax", "poppy", "reksai", "viego", "diana", "shaco", "amumu", "lillia", "kayn", "udyr", "shyvana", "jarvaniv", "talon", "kindred", "zed", "ekko", "rengar", "elise", "fiddlesticks", "qiyana", "nidalee", "olaf", "leesin", "evelynn", "gwen"]
+		},
+		"aphelios": {
+			"goodvs": ["kalista", "lucian", "caitlyn", "kaisa", "varus", "ezreal", "xayah", "samira", "draven", "tristana", "ashe", "jinx", "jhin", "vayne", "yasuo", "missfortune", "sivir", "zeri", "kogmaw", "senna", "twitch", "ziggs", "veigar"],
+			"goodwith": ["blitzcrank", "sona", "soraka", "zyra", "brand", "maokai", "janna", "swain", "alistar", "zilean", "velkoz", "lux", "xerath", "shaco", "senna", "leona", "pyke", "morgana", "nami", "rell", "braum", "nautilus", "bard", "rakan", "lulu", "thresh", "karma", "seraphine", "galio", "pantheon", "vex", "yuumi"]
+		},
+		"ashe": {
+			"goodvs": ["aphelios", "kalista", "varus", "caitlyn", "lucian", "draven", "kaisa", "samira", "ezreal", "xayah", "jinx", "kogmaw", "jhin", "senna", "zeri", "vayne", "twitch", "tristana", "sivir", "missfortune", "yasuo", "ziggs", "veigar"],
+			"goodwith": ["brand", "swain", "soraka", "zyra", "sona", "xerath", "zilean", "lux", "blitzcrank", "maokai", "shaco", "taric", "velkoz", "morgana", "janna", "senna", "pyke", "braum", "lulu", "leona", "seraphine", "nami", "veigar", "alistar", "galio", "bard", "nautilus", "karma", "rakan", "malphite", "pantheon", "vex", "thresh", "missfortune", "yuumi"]
+		},
+		"aurelionsol": {
+			"goodvs": ["ryze", "leblanc", "orianna", "twistedfate", "azir", "vex", "yasuo", "corki", "vladimir", "lissandra", "syndra", "talon", "neeko", "pantheon", "sylas", "akali", "viktor", "zoe", "kassadin", "jayce", "annie", "lux", "ekko", "irelia", "xerath", "anivia", "zed", "zeri", "katarina", "akshan", "malzahar", "qiyana", "yone", "ahri", "diana", "cassiopeia", "ziggs", "veigar", "velkoz", "galio", "fizz", "brand"],
+			"goodwith": ["masteryi", "zac", "trundle", "nocturne", "ekko", "volibear", "vi", "khazix", "udyr", "xinzhao", "nunu", "shaco", "viego", "rammus", "warwick", "kayn", "jax", "diana", "rengar", "fiddlesticks", "graves", "poppy", "reksai", "evelynn", "sejuani", "talon", "hecarim", "zed", "kindred", "elise", "gwen", "qiyana", "shyvana", "jarvaniv", "amumu", "olaf", "leesin", "lillia", "nidalee"]
+		},
+		"azir": {
+			"goodvs": ["ryze", "corki", "zeri", "orianna", "sylas", "yasuo", "zoe", "twistedfate", "leblanc", "fizz", "akali", "syndra", "zed", "katarina", "qiyana", "pantheon", "galio", "irelia", "cassiopeia", "kassadin", "talon", "vladimir", "akshan", "jayce", "vex", "malzahar", "anivia", "lissandra", "yone", "viktor", "annie", "ahri", "veigar", "diana", "lux", "ekko", "ziggs", "neeko", "xerath", "velkoz", "brand"],
+			"goodwith": ["sejuani", "rammus", "nunu", "zac", "warwick", "khazix", "nocturne", "shaco", "masteryi", "hecarim", "diana", "ekko", "trundle", "vi", "amumu", "graves", "elise", "shyvana", "gwen", "poppy", "volibear", "xinzhao", "udyr", "kindred", "viego", "fiddlesticks", "kayn", "reksai", "evelynn", "rengar", "jarvaniv", "lillia", "zed", "jax", "talon", "qiyana", "leesin", "nidalee", "olaf"]
+		},
+		"bard": {
+			"goodvs": ["pantheon", "vex", "thresh", "karma", "braum", "seraphine", "galio", "rakan", "rell", "yuumi", "alistar", "nautilus", "veigar", "lulu", "leona", "taric", "pyke", "nami", "janna", "xerath", "shaco", "lux", "maokai", "blitzcrank", "zilean", "soraka", "morgana", "velkoz", "swain", "senna", "sona", "zyra", "brand"],
+			"goodwith": ["veigar", "ziggs", "vayne", "senna", "jhin", "missfortune", "sivir", "zeri", "ezreal", "jinx", "ashe", "tristana", "varus", "xayah", "draven", "twitch", "kaisa", "caitlyn", "lucian", "aphelios", "samira"]
+		},
+		"blitzcrank": {
+			"goodvs": ["vex", "karma", "thresh", "yuumi", "pantheon", "seraphine", "lulu", "malphite", "nami", "lux", "pyke", "velkoz", "veigar", "bard", "galio", "xerath", "senna", "nautilus", "sona", "morgana", "soraka", "maokai", "rakan", "zyra", "janna", "taric", "zilean", "braum", "leona", "rell", "brand", "alistar", "swain", "shaco"],
+			"goodwith": ["ziggs", "vayne", "missfortune", "tristana", "sivir", "kaisa", "zeri", "jinx", "twitch", "draven", "xayah", "yasuo", "jhin", "samira", "kalista", "ashe", "ezreal", "lucian", "aphelios", "varus", "caitlyn"]
+		},
+		"brand": {
+			"goodvs": ["thresh", "vex", "malphite", "seraphine", "bard", "pantheon", "rakan", "veigar", "braum", "nautilus", "karma", "rell", "alistar", "leona", "pyke", "swain", "lulu", "morgana", "galio", "yuumi", "nami", "senna", "zilean", "maokai", "janna", "velkoz", "blitzcrank", "soraka", "lux", "sona", "zyra", "xerath", "shaco"],
+			"goodwith": ["yasuo", "veigar", "jhin", "vayne", "tristana", "missfortune", "ashe", "sivir", "senna", "twitch", "jinx", "kaisa", "draven", "zeri", "ezreal", "kogmaw", "ziggs", "xayah", "caitlyn", "varus", "samira", "lucian", "aphelios"]
+		},
+		"braum": {
+			"goodvs": ["vex", "pantheon", "yuumi", "thresh", "malphite", "nautilus", "karma", "galio", "pyke", "seraphine", "leona", "maokai", "rakan", "blitzcrank", "nami", "lulu", "bard", "alistar", "lux", "veigar", "janna", "taric", "zilean", "xerath", "morgana", "sona", "rell", "swain", "soraka", "senna", "velkoz", "brand", "zyra"],
+			"goodwith": ["vayne", "kogmaw", "twitch", "zeri", "yasuo", "jinx", "sivir", "missfortune", "tristana", "senna", "ashe", "kalista", "ezreal", "lucian", "xayah", "kaisa", "jhin", "varus", "caitlyn", "aphelios", "draven", "samira"]
+		},
+		"caitlyn": {
+			"goodvs": ["aphelios", "kalista", "lucian", "varus", "xayah", "draven", "samira", "ezreal", "kaisa", "zeri", "ashe", "kogmaw", "jinx", "senna", "tristana", "twitch", "missfortune", "vayne", "jhin", "sivir", "yasuo", "ziggs", "veigar"],
+			"goodwith": ["zyra", "sona", "xerath", "brand", "janna", "morgana", "blitzcrank", "shaco", "lux", "soraka", "swain", "zilean", "velkoz", "senna", "maokai", "nami", "bard", "braum", "veigar", "nautilus", "alistar", "pyke", "leona", "rakan", "karma", "lulu", "galio", "seraphine", "vex", "yuumi", "thresh", "pantheon"]
+		},
+		"camille": {
+			"goodvs": ["aatrox", "graves", "renekton", "jayce", "tryndamere", "kennen", "gnar", "illaoi", "akshan", "yasuo", "yone", "wukong", "gragas", "irelia", "riven", "poppy", "gwen", "akali", "gangplank", "sett", "ornn", "sion", "kled", "tahmkench", "zeri", "jax", "garen", "vladimir", "darius", "nasus", "malphite", "fiora", "drmundo", "chogath", "trundle", "volibear", "quinn", "yorick", "singed", "janna", "kayle", "urgot", "warwick", "vayne", "shen", "mordekaiser", "teemo"],
+			"goodwith": ["zac", "sejuani", "nunu", "shyvana", "ekko", "rammus", "trundle", "fiddlesticks", "diana", "elise", "vi", "warwick", "khazix", "volibear", "shaco", "reksai", "lillia", "udyr", "masteryi", "nocturne", "graves", "xinzhao", "nidalee", "gwen", "amumu", "evelynn", "hecarim", "poppy", "kindred", "talon", "viego", "jarvaniv", "kayn", "jax", "gragas", "qiyana", "karthus", "zed", "rengar", "leesin", "olaf"]
+		},
+		"cassiopeia": {
+			"goodvs": ["ryze", "leblanc", "sylas", "twistedfate", "zeri", "lissandra", "vex", "corki", "neeko", "irelia", "katarina", "vladimir", "syndra", "kassadin", "pantheon", "jayce", "orianna", "galio", "ziggs", "yone", "ekko", "zed", "akshan", "zoe", "qiyana", "yasuo", "akali", "talon", "annie", "lux", "viktor", "ahri", "anivia", "diana", "fizz", "veigar", "xerath", "brand", "malzahar", "velkoz"],
+			"goodwith": ["rammus", "nunu", "trundle", "nocturne", "poppy", "zac", "vi", "masteryi", "talon", "volibear", "sejuani", "udyr", "shaco", "ekko", "jarvaniv", "xinzhao", "diana", "warwick", "hecarim", "reksai", "khazix", "shyvana", "amumu", "viego", "kayn", "kindred", "graves", "elise", "fiddlesticks", "rengar", "gwen", "lillia", "jax", "evelynn", "zed", "olaf", "leesin", "qiyana", "nidalee"]
+		},
+		"chogath": {
+			"goodvs": ["gragas", "gangplank", "renekton", "jayce", "jax", "kennen", "poppy", "aatrox", "malphite", "yasuo", "riven", "warwick", "wukong", "akali", "sylas", "teemo", "akshan", "camille", "gnar", "tryndamere", "illaoi", "darius", "irelia", "tahmkench", "sion", "kled", "volibear", "yone", "graves", "gwen", "quinn", "sett", "garen", "vayne", "singed", "ornn", "fiora", "kayle", "shen", "trundle", "nasus", "yorick", "mordekaiser", "urgot", "drmundo"],
+			"goodwith": ["trundle", "masteryi", "nocturne", "vi", "nunu", "lillia", "shaco", "rammus", "khazix", "warwick", "viego", "diana", "zac", "ekko", "volibear", "poppy", "fiddlesticks", "jax", "kayn", "xinzhao", "graves", "hecarim", "kindred", "shyvana", "sejuani", "udyr", "amumu", "jarvaniv", "reksai", "qiyana", "rengar", "zed", "elise", "nidalee", "olaf", "talon", "evelynn", "leesin", "gwen"]
+		},
+		"corki": {
+			"goodvs": ["ryze", "azir", "twistedfate", "orianna", "leblanc", "lissandra", "syndra", "galio", "neeko", "akali", "malzahar", "zoe", "jayce", "zeri", "sylas", "anivia", "brand", "lux", "cassiopeia", "katarina", "viktor", "qiyana", "annie", "velkoz", "ekko", "vladimir", "zed", "vex", "yone", "talon", "diana", "kassadin", "irelia", "yasuo", "veigar", "ahri", "xerath", "fizz", "akshan"],
+			"goodwith": ["rammus", "masteryi", "nocturne", "warwick", "nunu", "trundle", "shaco", "vi", "volibear", "udyr", "khazix", "shyvana", "zac", "amumu", "sejuani", "diana", "poppy", "fiddlesticks", "kayn", "hecarim", "jax", "xinzhao", "elise", "ekko", "graves", "viego", "rengar", "jarvaniv", "lillia", "reksai", "evelynn", "talon", "kindred", "gwen", "qiyana", "zed", "nidalee", "olaf", "leesin", "karthus", "gragas"]
+		},
+		"darius": {
+			"goodvs": ["poppy", "renekton", "gragas", "yasuo", "aatrox", "camille", "graves", "tryndamere", "kennen", "gwen", "gnar", "vladimir", "sion", "gangplank", "jayce", "jax", "akshan", "tahmkench", "irelia", "warwick", "yone", "riven", "fiora", "akali", "illaoi", "shen", "singed", "chogath", "sett", "nasus", "volibear", "malphite", "kled", "mordekaiser", "garen", "trundle", "ornn", "urgot", "wukong", "kayle", "teemo", "vayne", "quinn", "yorick", "drmundo"],
+			"goodwith": ["rammus", "fiddlesticks", "nunu", "zac", "diana", "shyvana", "trundle", "ekko", "elise", "sejuani", "vi", "graves", "lillia", "nocturne", "poppy", "masteryi", "warwick", "volibear", "amumu", "shaco", "udyr", "hecarim", "khazix", "viego", "evelynn", "gwen", "xinzhao", "jarvaniv", "reksai", "kindred", "zed", "nidalee", "kayn", "jax", "talon", "karthus", "gragas", "leesin", "qiyana", "olaf", "rengar"]
+		},
+		"diana": {
+			"goodvs": ["qiyana", "gragas", "leesin", "nidalee", "olaf", "karthus", "rengar", "talon", "zed", "lillia", "jarvaniv", "evelynn", "kindred", "gwen", "kayn", "graves", "reksai", "khazix", "hecarim", "shaco", "elise", "amumu", "poppy", "jax", "fiddlesticks", "viego", "udyr", "shyvana", "xinzhao", "ekko", "vi", "nocturne", "volibear", "sejuani", "nunu", "zac", "rammus", "warwick", "trundle", "masteryi"],
+			"goodwith": ["garen", "drmundo", "urgot", "nasus", "yorick", "quinn", "yasuo", "akshan", "ornn", "trundle", "shen", "ahri", "malphite", "veigar", "anivia", "chogath", "malzahar", "fizz", "vayne", "sion", "irelia", "fiora", "zed", "lux", "kayle", "yone", "riven", "qiyana", "tahmkench", "wukong", "irelia", "sett", "teemo", "volibear", "mordekaiser", "jayce", "talon", "yasuo", "viktor", "graves", "darius", "tryndamere", "ekko", "yone", "vladimir", "xerath", "akali", "jax", "camille", "vex", "kassadin", "katarina", "sylas", "illaoi", "gnar", "aatrox", "akali", "orianna", "jayce", "syndra", "renekton", "gangplank", "corki", "gwen", "leblanc"]
+		},
+		"drmundo": {
+			"goodvs": ["kennen", "renekton", "gragas", "jax", "jayce", "darius", "poppy", "gangplank", "gnar", "yasuo", "urgot", "malphite", "chogath", "graves", "sett", "tahmkench", "volibear", "mordekaiser", "akali", "wukong", "aatrox", "ornn", "riven", "sylas", "warwick", "akshan", "quinn", "vayne", "sion", "fiora", "tryndamere", "teemo", "singed", "gwen", "shen", "yone", "illaoi", "camille", "irelia", "kayle", "trundle", "garen", "yorick", "kled", "nasus"],
+			"goodwith": ["masteryi", "trundle", "shyvana", "nocturne", "shaco", "vi", "zac", "rammus", "volibear", "lillia", "ekko", "warwick", "nunu", "diana", "khazix", "fiddlesticks", "sejuani", "graves", "amumu", "viego", "kayn", "jax", "udyr", "poppy", "hecarim", "kindred", "xinzhao", "karthus", "elise", "evelynn", "reksai", "talon", "rengar", "gwen", "zed", "jarvaniv", "nidalee", "qiyana", "leesin", "olaf"]
+		},
+		"draven": {
+			"goodvs": ["aphelios", "kalista", "lucian", "varus", "caitlyn", "kaisa", "ezreal", "xayah", "twitch", "samira", "ashe", "vayne", "sivir", "jinx", "kogmaw", "missfortune", "senna", "jhin", "tristana", "zeri", "ziggs", "yasuo", "veigar"],
+			"goodwith": ["blitzcrank", "janna", "swain", "zyra", "brand", "soraka", "velkoz", "lux", "xerath", "zilean", "sona", "morgana", "nami", "nautilus", "senna", "pyke", "maokai", "veigar", "leona", "alistar", "lulu", "bard", "yuumi", "thresh", "karma", "rell", "seraphine", "galio", "pantheon", "rakan", "braum", "vex"]
+		},
+		"ekko": {
+			"goodvs": ["olaf", "karthus", "gwen", "leesin", "qiyana", "nidalee", "talon", "gragas", "zed", "jarvaniv", "jax", "reksai", "viego", "xinzhao", "rengar", "amumu", "evelynn", "kayn", "lillia", "kindred", "hecarim", "graves", "elise", "diana", "poppy", "nocturne", "masteryi", "warwick", "fiddlesticks", "trundle", "khazix", "zac", "volibear", "shaco", "udyr", "vi", "shyvana", "sejuani", "nunu", "rammus"],
+			"goodwith": ["drmundo", "garen", "urgot", "quinn", "nasus", "yorick", "trundle", "veigar", "akshan", "malzahar", "chogath", "ahri", "yasuo", "talon", "anivia", "sion", "malphite", "shen", "irelia", "fizz", "yone", "zed", "qiyana", "fiora", "ornn", "vayne", "graves", "lux", "irelia", "yone", "sett", "mordekaiser", "volibear", "teemo", "riven", "kayle", "tahmkench", "camille", "darius", "tryndamere", "jayce", "xerath", "yasuo", "kassadin", "akali", "viktor", "vladimir", "gnar", "vex", "katarina", "jax", "illaoi", "sylas", "aatrox", "gangplank", "jayce", "akali", "renekton", "syndra", "gwen", "leblanc", "twistedfate", "corki"]
+		},
+		"elise": {
+			"goodvs": ["gwen", "leesin", "olaf", "gragas", "nidalee", "viego", "qiyana", "reksai", "karthus", "talon", "zed", "kindred", "rengar", "poppy", "kayn", "masteryi", "graves", "evelynn", "ekko", "khazix", "jarvaniv", "jax", "diana", "amumu", "lillia", "xinzhao", "trundle", "hecarim", "udyr", "shyvana", "fiddlesticks", "vi", "nunu", "warwick", "rammus", "shaco", "nocturne", "volibear", "sejuani", "zac"],
+			"goodwith": ["nasus", "garen", "talon", "graves", "vayne", "urgot", "poppy", "drmundo", "yorick", "trundle", "tahmkench", "kayle", "irelia", "yone", "riven", "anivia", "zed", "viktor", "ahri", "qiyana", "fiora", "irelia", "darius", "volibear", "yone", "jayce", "kassadin", "malzahar", "ornn", "yasuo", "sion", "sett", "quinn", "vladimir", "shen", "akshan", "camille", "tryndamere", "vex", "xerath", "malphite", "fizz", "veigar", "ekko", "lissandra", "katarina", "aatrox", "mordekaiser", "gnar", "lux", "jax", "sylas", "jayce", "akali", "illaoi", "teemo", "gangplank", "akali", "renekton", "leblanc", "syndra", "twistedfate", "corki", "gwen"]
+		},
+		"evelynn": {
+			"goodvs": ["karthus", "leesin", "olaf", "zed", "nidalee", "gwen", "viego", "qiyana", "elise", "gragas", "jarvaniv", "graves", "xinzhao", "talon", "kindred", "kayn", "lillia", "hecarim", "reksai", "rengar", "jax", "ekko", "fiddlesticks", "udyr", "poppy", "shyvana", "amumu", "masteryi", "diana", "nocturne", "shaco", "khazix", "zac", "warwick", "volibear", "trundle", "nunu", "vi", "sejuani", "rammus"],
+			"goodwith": ["drmundo", "quinn", "garen", "urgot", "trundle", "nasus", "yorick", "talon", "irelia", "graves", "akshan", "irelia", "anivia", "ahri", "ornn", "veigar", "sion", "yone", "yasuo", "fiora", "shen", "malzahar", "xerath", "riven", "vayne", "kassadin", "zed", "diana", "yone", "lissandra", "lux", "kayle", "viktor", "jayce", "cassiopeia", "sett", "tryndamere", "malphite", "yasuo", "camille", "darius", "jax", "qiyana", "vladimir", "wukong", "fizz", "chogath", "teemo", "volibear", "aatrox", "mordekaiser", "tahmkench", "vex", "ekko", "illaoi", "jayce", "katarina", "akali", "gnar", "sylas", "renekton", "gangplank", "corki", "leblanc", "akali", "twistedfate", "syndra", "gwen"]
+		},
+		"ezreal": {
+			"goodvs": ["aphelios", "varus", "caitlyn", "lucian", "samira", "xayah", "jinx", "kalista", "draven", "ashe", "missfortune", "kaisa", "senna", "zeri", "tristana", "kogmaw", "jhin", "twitch", "sivir", "yasuo", "vayne", "ziggs", "veigar"],
+			"goodwith": ["zyra", "shaco", "sona", "maokai", "xerath", "brand", "soraka", "blitzcrank", "zilean", "janna", "senna", "lux", "velkoz", "leona", "swain", "morgana", "alistar", "nami", "bard", "braum", "galio", "karma", "rakan", "nautilus", "pyke", "veigar", "malphite", "lulu", "seraphine", "vex", "yuumi", "pantheon", "thresh"]
+		},
+		"fiddlesticks": {
+			"goodvs": ["gragas", "leesin", "nidalee", "qiyana", "olaf", "reksai", "zed", "karthus", "gwen", "jarvaniv", "rengar", "kayn", "elise", "talon", "poppy", "kindred", "graves", "viego", "evelynn", "khazix", "lillia", "jax", "hecarim", "shaco", "ekko", "xinzhao", "udyr", "diana", "vi", "trundle", "masteryi", "shyvana", "warwick", "nunu", "amumu", "volibear", "rammus", "nocturne", "zac", "sejuani"],
+			"goodwith": ["akshan", "garen", "urgot", "drmundo", "irelia", "wukong", "fiora", "nasus", "talon", "yasuo", "yorick", "jayce", "kayle", "trundle", "yone", "kassadin", "quinn", "vayne", "ornn", "zed", "qiyana", "fizz", "riven", "darius", "chogath", "graves", "malzahar", "tryndamere", "sion", "ahri", "irelia", "vladimir", "akali", "tahmkench", "sett", "yasuo", "shen", "ekko", "mordekaiser", "malphite", "gnar", "katarina", "camille", "sylas", "anivia", "jax", "veigar", "diana", "viktor", "lux", "cassiopeia", "yone", "volibear", "xerath", "jayce", "akali", "illaoi", "teemo", "lissandra", "leblanc", "aatrox", "gangplank", "gwen", "vex", "renekton", "corki", "orianna", "syndra"]
+		},
+		"fiora": {
+			"goodvs": ["gwen", "aatrox", "kled", "irelia", "renekton", "camille", "yone", "mordekaiser", "jax", "jayce", "gragas", "kennen", "gnar", "ornn", "akali", "yasuo", "darius", "chogath", "riven", "illaoi", "tryndamere", "sion", "volibear", "tahmkench", "vladimir", "gangplank", "vayne", "trundle", "sett", "graves", "yorick", "akshan", "shen", "poppy", "wukong", "teemo", "quinn", "warwick", "singed", "drmundo", "nasus", "garen", "malphite", "urgot", "kayle"],
+			"goodwith": ["zac", "sejuani", "fiddlesticks", "nunu", "rammus", "diana", "shyvana", "trundle", "ekko", "vi", "masteryi", "nocturne", "amumu", "shaco", "lillia", "warwick", "poppy", "elise", "graves", "volibear", "hecarim", "evelynn", "reksai", "gwen", "khazix", "udyr", "karthus", "nidalee", "jarvaniv", "kayn", "kindred", "viego", "xinzhao", "qiyana", "jax", "talon", "zed", "gragas", "leesin", "rengar", "olaf"]
+		},
+		"fizz": {
+			"goodvs": ["twistedfate", "ryze", "syndra", "corki", "zoe", "zeri", "velkoz", "xerath", "leblanc", "qiyana", "brand", "orianna", "katarina", "vex", "zed", "jayce", "talon", "annie", "neeko", "cassiopeia", "irelia", "lux", "ekko", "viktor", "yasuo", "sylas", "ahri", "malzahar", "akali", "anivia", "yone", "veigar", "akshan", "diana", "galio", "vladimir", "lissandra", "kassadin", "pantheon"],
+			"goodwith": ["trundle", "nunu", "zac", "sejuani", "volibear", "vi", "masteryi", "rammus", "shyvana", "amumu", "nocturne", "udyr", "shaco", "graves", "warwick", "fiddlesticks", "hecarim", "diana", "lillia", "khazix", "kindred", "ekko", "xinzhao", "poppy", "viego", "jarvaniv", "kayn", "reksai", "jax", "zed", "olaf", "elise", "rengar", "gwen", "nidalee", "talon", "qiyana", "evelynn", "leesin"]
+		},
+		"galio": {
+			"goodvs": ["twistedfate", "ryze", "leblanc", "syndra", "sylas", "akali", "orianna", "katarina", "vladimir", "pantheon", "irelia", "lissandra", "jayce", "qiyana", "zoe", "vex", "ekko", "corki", "fizz", "akshan", "xerath", "kassadin", "yasuo", "malzahar", "zed", "cassiopeia", "annie", "diana", "viktor", "talon", "lux", "yone", "anivia", "zeri", "neeko", "ahri", "velkoz", "brand", "veigar"],
+			"goodwith": ["masteryi", "kindred", "lillia", "nocturne", "zac", "warwick", "vi", "diana", "volibear", "trundle", "shyvana", "graves", "jax", "reksai", "khazix", "shaco", "fiddlesticks", "rengar", "viego", "rammus", "nunu", "xinzhao", "kayn", "ekko", "hecarim", "sejuani", "talon", "poppy", "elise", "karthus", "gwen", "amumu", "zed", "qiyana", "evelynn", "udyr", "jarvaniv", "nidalee", "leesin", "olaf"]
+		},
+		"gangplank": {
+			"goodvs": ["illaoi", "poppy", "renekton", "camille", "kennen", "fiora", "warwick", "aatrox", "akali", "yone", "gragas", "vayne", "jax", "darius", "gnar", "gwen", "sett", "jayce", "sylas", "wukong", "yasuo", "shen", "volibear", "vladimir", "singed", "graves", "mordekaiser", "tahmkench", "riven", "tryndamere", "irelia", "nasus", "kled", "teemo", "malphite", "sion", "trundle", "akshan", "ornn", "yorick", "garen", "quinn", "urgot", "chogath", "kayle", "drmundo"],
+			"goodwith": ["rammus", "warwick", "nunu", "zac", "trundle", "masteryi", "udyr", "poppy", "vi", "ekko", "volibear", "nocturne", "hecarim", "sejuani", "diana", "shaco", "fiddlesticks", "gwen", "khazix", "elise", "shyvana", "amumu", "jarvaniv", "graves", "viego", "xinzhao", "kayn", "reksai", "lillia", "nidalee", "evelynn", "kindred", "rengar", "talon", "jax", "gragas", "zed", "leesin", "olaf", "karthus", "qiyana"]
+		},
+		"garen": {
+			"goodvs": ["renekton", "gwen", "jax", "aatrox", "riven", "irelia", "poppy", "jayce", "gragas", "yasuo", "yone", "gangplank", "wukong", "illaoi", "warwick", "kennen", "akali", "akshan", "volibear", "fiora", "graves", "nasus", "kled", "sett", "gnar", "shen", "darius", "ornn", "tryndamere", "tahmkench", "malphite", "sion", "camille", "drmundo", "chogath", "trundle", "singed", "mordekaiser", "yorick", "teemo", "vayne", "urgot", "kayle", "quinn"],
+			"goodwith": ["zac", "nunu", "rammus", "nocturne", "vi", "trundle", "diana", "fiddlesticks", "shyvana", "shaco", "masteryi", "ekko", "lillia", "warwick", "sejuani", "amumu", "volibear", "elise", "poppy", "khazix", "hecarim", "graves", "viego", "jax", "xinzhao", "kayn", "udyr", "evelynn", "jarvaniv", "talon", "kindred", "gwen", "reksai", "zed", "qiyana", "rengar", "nidalee", "gragas", "karthus", "leesin", "olaf"]
+		},
+		"gnar": {
+			"goodvs": ["rumble", "renekton", "gwen", "gragas", "warwick", "kennen", "zeri", "aatrox", "jax", "illaoi", "gangplank", "volibear", "poppy", "sett", "jayce", "graves", "yone", "tryndamere", "darius", "camille", "fiora", "akali", "vladimir", "trundle", "riven", "kled", "singed", "chogath", "kayle", "mordekaiser", "sion", "sylas", "teemo", "garen", "yasuo", "vayne", "wukong", "shen", "akshan", "tahmkench", "quinn", "ornn", "malphite", "urgot", "yorick", "nasus", "irelia", "drmundo"],
+			"goodwith": ["rammus", "nunu", "trundle", "fiddlesticks", "shyvana", "vi", "ekko", "masteryi", "sejuani", "nocturne", "diana", "graves", "udyr", "zac", "warwick", "volibear", "lillia", "shaco", "reksai", "xinzhao", "poppy", "elise", "khazix", "nidalee", "kayn", "hecarim", "kindred", "viego", "amumu", "gwen", "jarvaniv", "jax", "talon", "zed", "karthus", "evelynn", "qiyana", "gragas", "rengar", "leesin", "olaf"]
+		},
+		"gragas": {
+			"goodvs": ["kennen", "jayce", "rengar", "jax", "renekton", "tryndamere", "yasuo", "camille", "wukong", "gangplank", "malphite", "gwen", "akali", "warwick", "illaoi", "quinn", "riven", "sett", "vladimir", "fiora", "akshan", "trundle", "kled", "gnar", "viktor", "yone", "aatrox", "graves", "irelia", "poppy", "teemo", "sylas", "darius", "tahmkench", "vayne", "sion", "kayle", "ornn", "urgot", "volibear", "mordekaiser", "nasus", "garen", "shen", "chogath", "yorick", "drmundo", "singed"],
+			"goodwith": ["masteryi", "kindred", "graves", "vi", "khazix", "nunu", "trundle", "reksai", "nocturne", "udyr", "volibear", "warwick", "diana", "fiddlesticks", "shaco", "viego", "rammus", "poppy", "xinzhao", "kayn", "shyvana", "zac", "elise", "jax", "ekko", "talon", "rengar", "hecarim", "lillia", "sejuani", "qiyana", "nidalee", "jarvaniv", "gwen", "zed", "leesin", "amumu", "olaf", "karthus", "evelynn"]
+		},
+		"graves": {
+			"goodvs": ["karthus", "leesin", "qiyana", "gragas", "reksai", "rengar", "jax", "zed", "kayn", "gwen", "talon", "lillia", "jarvaniv", "shaco", "evelynn", "viego", "xinzhao", "nidalee", "hecarim", "elise", "amumu", "kindred", "zac", "volibear", "ekko", "udyr", "nocturne", "khazix", "vi", "warwick", "poppy", "fiddlesticks", "trundle", "masteryi", "sejuani", "diana", "shyvana", "nunu", "rammus"],
+			"goodwith": ["drmundo", "diana", "garen", "ahri", "tahmkench", "malphite", "anivia", "fizz", "shen", "ornn", "veigar", "yorick", "nasus", "teemo", "vex", "quinn", "malzahar", "mordekaiser", "urgot", "xerath", "sion", "lissandra", "chogath", "poppy", "akali", "kayle", "volibear", "ekko", "lux", "viktor", "akali", "gragas", "kassadin", "fiora", "zoe", "cassiopeia", "sylas", "kennen", "trundle", "sylas", "darius", "talon", "riven", "katarina", "leblanc", "vladimir", "irelia", "sett", "irelia", "gnar", "vayne", "camille", "zed", "akshan", "twistedfate", "qiyana", "tryndamere", "syndra", "jayce", "gwen", "jax", "aatrox", "illaoi", "yone", "yasuo", "yone", "renekton", "orianna", "gangplank", "corki", "ryze"]
+		},
+		"gwen": {
+			"goodvs": ["renekton", "sylas", "illaoi", "camille", "gangplank", "tahmkench", "kled", "gragas", "aatrox", "sion", "chogath", "darius", "yorick", "irelia", "poppy", "gnar", "volibear", "wukong", "drmundo", "nasus", "ornn", "malphite", "akshan", "shen", "jayce", "mordekaiser", "kennen", "vladimir", "sett", "graves", "trundle", "urgot", "riven", "fiora", "jax", "tryndamere", "akali", "quinn", "warwick", "vayne", "yasuo", "yone", "teemo", "singed", "garen", "kayle"],
+			"goodwith": ["rammus", "nunu", "sejuani", "zac", "vi", "shyvana", "trundle", "masteryi", "nocturne", "graves", "khazix", "shaco", "volibear", "fiddlesticks", "warwick", "poppy", "reksai", "jarvaniv", "diana", "hecarim", "ekko", "xinzhao", "kindred", "amumu", "qiyana", "kayn", "lillia", "viego", "udyr", "elise", "jax", "rengar", "talon", "zed", "nidalee", "leesin", "evelynn", "olaf"]
+		},
+		"hecarim": {
+			"goodvs": ["qiyana", "zed", "gragas", "leesin", "olaf", "talon", "nidalee", "karthus", "rengar", "elise", "jax", "evelynn", "reksai", "amumu", "kindred", "graves", "poppy", "viego", "gwen", "jarvaniv", "xinzhao", "kayn", "shaco", "udyr", "khazix", "ekko", "fiddlesticks", "nocturne", "shyvana", "diana", "lillia", "warwick", "zac", "volibear", "sejuani", "masteryi", "vi", "rammus", "trundle", "nunu"],
+			"goodwith": ["garen", "kayle", "veigar", "drmundo", "urgot", "fizz", "nasus", "ornn", "malzahar", "annie", "yorick", "teemo", "ahri", "trundle", "anivia", "vladimir", "kassadin", "shen", "viktor", "diana", "mordekaiser", "quinn", "chogath", "cassiopeia", "vayne", "malphite", "riven", "lux", "yasuo", "katarina", "fiora", "ekko", "yasuo", "lissandra", "vex", "akshan", "irelia", "xerath", "irelia", "sion", "akali", "tahmkench", "volibear", "graves", "yone", "yone", "talon", "akali", "tryndamere", "sett", "darius", "zoe", "orianna", "jax", "jayce", "camille", "sylas", "gangplank", "zed", "gnar", "qiyana", "syndra", "gwen", "gragas", "leblanc", "illaoi", "corki", "aatrox", "renekton", "twistedfate", "ryze"]
+		},
+		"heimerdinger": {
+			"goodvs": ["sylas", "ryze", "zoe", "leblanc", "twistedfate", "annie", "cassiopeia", "zed", "pantheon", "katarina", "akali", "talon", "vladimir", "neeko", "lissandra", "vex", "ekko", "qiyana", "zeri", "irelia", "akshan", "syndra", "yone", "ahri", "corki", "orianna", "galio", "jayce", "brand", "kassadin", "malzahar", "anivia", "lux", "viktor", "fizz", "diana", "veigar", "xerath", "ziggs", "velkoz", "yasuo"],
+			"goodwith": ["nocturne", "masteryi", "shyvana", "trundle", "vi", "poppy", "zac", "warwick", "volibear", "nunu", "sejuani", "diana", "shaco", "amumu", "lillia", "graves", "udyr", "hecarim", "kindred", "viego", "gwen", "khazix", "zed", "xinzhao", "reksai", "kayn", "elise", "ekko", "rammus", "fiddlesticks", "jax", "olaf", "jarvaniv", "rengar", "talon", "leesin", "nidalee", "evelynn", "qiyana"]
+		},
+		"illaoi": {
+			"goodvs": ["renekton", "volibear", "aatrox", "jax", "wukong", "darius", "gragas", "tahmkench", "warwick", "poppy", "sett", "riven", "ornn", "yone", "fiora", "camille", "gnar", "kled", "malphite", "shen", "jayce", "akali", "kennen", "gwen", "chogath", "irelia", "drmundo", "gangplank", "urgot", "singed", "graves", "nasus", "yasuo", "tryndamere", "sion", "trundle", "quinn", "akshan", "vayne", "garen", "mordekaiser", "teemo", "kayle", "yorick"],
+			"goodwith": ["shyvana", "trundle", "warwick", "shaco", "masteryi", "nunu", "zac", "rammus", "nocturne", "diana", "ekko", "vi", "jax", "lillia", "udyr", "sejuani", "fiddlesticks", "volibear", "poppy", "amumu", "khazix", "elise", "viego", "graves", "kayn", "hecarim", "xinzhao", "evelynn", "gwen", "kindred", "talon", "reksai", "karthus", "jarvaniv", "zed", "qiyana", "nidalee", "rengar", "gragas", "leesin", "olaf"]
+		},
+		"irelia": {
+			"goodvs": ["zeri", "jayce", "kennen", "aatrox", "gnar", "akshan", "vladimir", "gangplank", "graves", "sylas", "yone", "quinn", "gragas", "yorick", "illaoi", "kayle", "gwen", "akali", "sion", "renekton", "darius", "vayne", "camille", "yasuo", "teemo", "chogath", "ornn", "kled", "riven", "drmundo", "tahmkench", "sett", "malphite", "mordekaiser", "singed", "wukong", "poppy", "fiora", "jax", "volibear", "shen", "urgot", "tryndamere", "nasus", "trundle", "garen", "warwick"],
+			"goodwith": ["sejuani", "rammus", "nunu", "zac", "trundle", "volibear", "poppy", "diana", "ekko", "fiddlesticks", "shaco", "shyvana", "vi", "amumu", "warwick", "nocturne", "evelynn", "elise", "lillia", "udyr", "masteryi", "hecarim", "graves", "reksai", "khazix", "xinzhao", "viego", "karthus", "jarvaniv", "talon", "kindred", "gragas", "nidalee", "gwen", "kayn", "jax", "zed", "leesin", "qiyana", "rengar", "olaf"]
+		},
+		"ivern": {
+			"goodvs": ["gragas", "olaf", "karthus", "jax", "elise", "leesin", "kindred", "udyr", "gwen", "zed", "rammus", "poppy", "hecarim", "evelynn", "talon", "nidalee", "reksai", "viego", "volibear", "xinzhao", "amumu", "qiyana", "warwick", "zac", "lillia", "rengar", "kayn", "nunu", "khazix", "graves", "shaco", "ekko", "diana", "vi", "fiddlesticks", "trundle", "sejuani", "jarvaniv", "shyvana", "nocturne", "masteryi"],
+			"goodwith": ["irelia", "fizz", "diana", "rengar", "garen", "yasuo", "vayne", "drmundo", "urgot", "nasus", "vladimir", "quinn", "irelia", "trundle", "katarina", "akshan", "kassadin", "yone", "mordekaiser", "cassiopeia", "veigar", "riven", "talon", "anivia", "shen", "darius", "camille", "jax", "volibear", "chogath", "aatrox", "malphite", "tryndamere", "yone", "viktor", "lux", "xerath", "ekko", "yorick", "zed", "sett", "ahri", "sion", "fiora", "kayle", "wukong", "graves", "yasuo", "gwen", "qiyana", "malzahar", "akali", "teemo", "ornn", "akali", "sylas", "vex", "annie", "twistedfate", "jayce", "gnar", "tahmkench", "illaoi", "gangplank", "renekton", "corki", "syndra", "leblanc", "lissandra", "orianna", "ryze"]
+		},
+		"janna": {
+			"goodvs": ["pantheon", "galio", "alistar", "rakan", "thresh", "rell", "vex", "yuumi", "karma", "seraphine", "nautilus", "braum", "leona", "pyke", "shaco", "zilean", "bard", "swain", "lulu", "velkoz", "nami", "morgana", "soraka", "lux", "xerath", "maokai", "brand", "blitzcrank", "senna", "sona", "zyra"],
+			"goodwith": ["veigar", "senna", "vayne", "zeri", "ziggs", "yasuo", "twitch", "sivir", "draven", "kogmaw", "jinx", "jhin", "missfortune", "tristana", "xayah", "ezreal", "ashe", "kaisa", "lucian", "caitlyn", "samira", "varus", "aphelios"]
+		},
+		"jarvaniv": {
+			"goodvs": ["olaf", "rengar", "qiyana", "gragas", "jax", "leesin", "nidalee", "udyr", "evelynn", "elise", "karthus", "hecarim", "talon", "sejuani", "lillia", "reksai", "zed", "zac", "amumu", "graves", "xinzhao", "kayn", "viego", "kindred", "volibear", "vi", "shaco", "poppy", "nunu", "ekko", "nocturne", "warwick", "khazix", "diana", "gwen", "trundle", "shyvana", "rammus", "fiddlesticks", "masteryi"],
+			"goodwith": ["kayle", "anivia", "veigar", "shen", "garen", "yorick", "malzahar", "fizz", "ahri", "cassiopeia", "nasus", "urgot", "quinn", "drmundo", "mordekaiser", "diana", "trundle", "teemo", "chogath", "kassadin", "vayne", "ornn", "annie", "malphite", "viktor", "lux", "volibear", "akshan", "yasuo", "vex", "ekko", "xerath", "fiora", "tahmkench", "vladimir", "riven", "yone", "irelia", "katarina", "lissandra", "irelia", "sion", "tryndamere", "sett", "yone", "darius", "akali", "talon", "jax", "yasuo", "camille", "sylas", "akali", "zed", "gwen", "gangplank", "graves", "gnar", "kennen", "qiyana", "aatrox", "jayce", "orianna", "gragas", "leblanc", "illaoi", "zoe", "renekton", "corki", "syndra", "ryze", "twistedfate"]
+		},
+		"jax": {
+			"goodvs": ["gwen", "yasuo", "renekton", "irelia", "yone", "aatrox", "akshan", "volibear", "warwick", "wukong", "camille", "tryndamere", "trundle", "vayne", "graves", "mordekaiser", "gangplank", "sett", "darius", "gnar", "kayle", "kled", "illaoi", "yorick", "jayce", "fiora", "gragas", "kennen", "riven", "tahmkench", "akali", "shen", "ornn", "vladimir", "nasus", "poppy", "sion", "teemo", "quinn", "urgot", "singed", "malphite", "chogath", "garen", "drmundo"],
+			"goodwith": ["sejuani", "rammus", "nunu", "zac", "trundle", "shaco", "diana", "masteryi", "fiddlesticks", "warwick", "volibear", "lillia", "amumu", "nocturne", "vi", "ekko", "khazix", "xinzhao", "poppy", "shyvana", "hecarim", "udyr", "elise", "reksai", "karthus", "evelynn", "kayn", "graves", "jarvaniv", "kindred", "viego", "zed", "talon", "nidalee", "gwen", "qiyana", "leesin", "olaf", "gragas", "rengar"]
+		},
+		"jayce": {
+			"goodvs": ["lucian", "gwen", "kennen", "rumble", "vayne", "renekton", "jax", "akali", "illaoi", "sylas", "gangplank", "zeri", "gnar", "yone", "darius", "tryndamere", "vladimir", "sett", "aatrox", "camille", "volibear", "fiora", "teemo", "yasuo", "riven", "mordekaiser", "kled", "kayle", "singed", "gragas", "graves", "trundle", "warwick", "viktor", "akshan", "wukong", "poppy", "shen", "urgot", "janna", "malphite", "tahmkench", "sion", "quinn", "ornn", "garen", "irelia", "rengar", "chogath", "drmundo", "nasus", "yorick"],
+			"goodwith": ["rammus", "nunu", "udyr", "zac", "elise", "warwick", "poppy", "nocturne", "vi", "trundle", "sejuani", "shyvana", "volibear", "diana", "fiddlesticks", "shaco", "masteryi", "hecarim", "graves", "ekko", "nidalee", "reksai", "khazix", "xinzhao", "amumu", "lillia", "kindred", "gwen", "viego", "kayn", "evelynn", "jax", "jarvaniv", "gragas", "talon", "leesin", "qiyana", "karthus", "rengar", "zed", "olaf"]
+		},
+		"jhin": {
+			"goodvs": ["aphelios", "caitlyn", "varus", "lucian", "xayah", "ezreal", "kalista", "draven", "samira", "jinx", "ashe", "senna", "kogmaw", "kaisa", "missfortune", "sivir", "zeri", "tristana", "twitch", "ziggs", "vayne", "yasuo", "veigar"],
+			"goodwith": ["zyra", "brand", "xerath", "shaco", "swain", "sona", "velkoz", "senna", "lux", "zilean", "soraka", "maokai", "blitzcrank", "morgana", "janna", "nami", "bard", "alistar", "leona", "veigar", "seraphine", "nautilus", "pantheon", "karma", "pyke", "galio", "rakan", "vex", "yuumi", "braum", "lulu", "thresh"]
+		},
+		"jinx": {
+			"goodvs": ["aphelios", "kalista", "samira", "caitlyn", "xayah", "lucian", "varus", "draven", "kaisa", "ashe", "ezreal", "kogmaw", "tristana", "zeri", "yasuo", "jhin", "senna", "vayne", "sivir", "missfortune", "twitch", "ziggs", "veigar"],
+			"goodwith": ["blitzcrank", "sona", "zyra", "soraka", "janna", "brand", "maokai", "braum", "shaco", "leona", "rell", "xerath", "swain", "lux", "morgana", "lulu", "nautilus", "alistar", "zilean", "nami", "velkoz", "senna", "pyke", "veigar", "bard", "rakan", "thresh", "galio", "karma", "seraphine", "pantheon", "vex", "yuumi"]
+		},
+		"kaisa": {
+			"goodvs": ["kalista", "varus", "aphelios", "caitlyn", "ezreal", "lucian", "jhin", "xayah", "draven", "ashe", "jinx", "tristana", "twitch", "samira", "senna", "kogmaw", "missfortune", "sivir", "yasuo", "ziggs", "vayne", "zeri", "veigar"],
+			"goodwith": ["blitzcrank", "zyra", "maokai", "brand", "shaco", "swain", "sona", "xerath", "nautilus", "leona", "lux", "janna", "alistar", "zilean", "rell", "senna", "soraka", "velkoz", "pyke", "morgana", "nami", "veigar", "galio", "braum", "rakan", "bard", "yuumi", "vex", "thresh", "lulu", "seraphine", "malphite", "pantheon", "karma"]
+		},
+		"kalista": {
+			"goodvs": ["ezreal", "caitlyn", "kogmaw", "aphelios", "samira", "varus", "jhin", "ziggs", "kaisa", "lucian", "ashe", "yasuo", "draven", "senna", "jinx", "tristana", "xayah", "zeri", "sivir", "twitch", "missfortune", "vayne", "veigar"],
+			"goodwith": ["taric", "blitzcrank", "sona", "swain", "zyra", "nautilus", "braum", "leona", "rell", "soraka", "lux", "lulu", "maokai", "janna", "amumu", "brand", "senna", "xerath", "galio", "thresh", "morgana", "alistar", "nami", "pyke", "bard", "pantheon", "zilean", "malphite", "velkoz", "sett", "tahmkench", "rakan", "karma", "seraphine", "yuumi", "vex"]
+		},
+		"karma": {
+			"goodvs": ["vex", "pantheon", "thresh", "seraphine", "veigar", "alistar", "morgana", "galio", "swain", "lux", "zilean", "bard", "lulu", "rakan", "braum", "nami", "leona", "yuumi", "xerath", "velkoz", "rell", "brand", "pyke", "senna", "janna", "shaco", "soraka", "maokai", "nautilus", "zyra", "sona", "blitzcrank"],
+			"goodwith": ["ziggs", "vayne", "zeri", "jhin", "sivir", "missfortune", "twitch", "senna", "jinx", "ezreal", "tristana", "ashe", "kogmaw", "draven", "xayah", "lucian", "kaisa", "varus", "caitlyn", "aphelios", "samira"]
+		},
+		"karthus": {
+			"goodvs": ["olaf", "qiyana", "gragas", "poppy", "reksai", "shaco", "leesin", "jarvaniv", "zed", "warwick", "elise", "viego", "amumu", "rengar", "talon", "lillia", "kayn", "zac", "nidalee", "evelynn", "khazix", "hecarim", "gwen", "nocturne", "fiddlesticks", "jax", "xinzhao", "rammus", "diana", "udyr", "graves", "sejuani", "nunu", "kindred", "trundle", "vi", "ekko", "volibear", "masteryi", "shyvana"],
+			"goodwith": ["drmundo", "akshan", "talon", "quinn", "nasus", "urgot", "yorick", "zed", "garen", "fiora", "vayne", "irelia", "irelia", "malphite", "yone", "yasuo", "jax", "qiyana", "wukong", "shen", "tahmkench", "graves", "ahri", "ornn", "yasuo", "jayce", "trundle", "yone", "tryndamere", "anivia", "mordekaiser", "chogath", "volibear", "riven", "camille", "sett", "xerath", "kassadin", "fizz", "gnar", "akali", "illaoi", "katarina", "sion", "lux", "darius", "vex", "sylas", "teemo", "vladimir", "kayle", "malzahar", "veigar", "viktor", "aatrox", "renekton", "jayce", "ekko", "akali", "leblanc", "twistedfate", "gangplank", "gwen", "corki", "syndra"]
+		},
+		"kassadin": {
+			"goodvs": ["ryze", "twistedfate", "corki", "syndra", "zoe", "leblanc", "orianna", "katarina", "sylas", "akali", "vladimir", "lucian", "fizz", "xerath", "annie", "viktor", "vex", "lissandra", "ekko", "zeri", "velkoz", "galio", "lux", "neeko", "anivia", "veigar", "qiyana", "jayce", "diana", "ahri", "yasuo", "malzahar", "irelia", "zed", "cassiopeia", "talon", "yone", "brand", "akshan", "pantheon"],
+			"goodwith": ["zac", "fiddlesticks", "nunu", "rammus", "reksai", "vi", "shaco", "trundle", "nocturne", "sejuani", "hecarim", "poppy", "warwick", "masteryi", "khazix", "graves", "jarvaniv", "volibear", "elise", "ekko", "diana", "xinzhao", "zed", "kayn", "amumu", "udyr", "lillia", "talon", "evelynn", "shyvana", "viego", "kindred", "qiyana", "gwen", "nidalee", "rengar", "jax", "leesin", "olaf"]
+		},
+		"katarina": {
+			"goodvs": ["ryze", "twistedfate", "syndra", "leblanc", "corki", "zoe", "zeri", "orianna", "xerath", "sylas", "veigar", "akali", "ekko", "talon", "qiyana", "neeko", "zed", "lissandra", "irelia", "lux", "velkoz", "brand", "anivia", "ahri", "viktor", "vex", "yone", "malzahar", "malphite", "pantheon", "yasuo", "annie", "cassiopeia", "akshan", "jayce", "galio", "kassadin", "vladimir", "fizz", "diana"],
+			"goodwith": ["sejuani", "nunu", "trundle", "rammus", "zac", "amumu", "vi", "nocturne", "warwick", "poppy", "masteryi", "fiddlesticks", "volibear", "hecarim", "lillia", "shyvana", "shaco", "diana", "graves", "khazix", "udyr", "xinzhao", "ekko", "reksai", "kindred", "elise", "viego", "jarvaniv", "kayn", "jax", "gwen", "qiyana", "talon", "evelynn", "olaf", "rengar", "leesin", "zed", "nidalee"]
+		},
+		"kayle": {
+			"goodvs": ["gwen", "illaoi", "gangplank", "renekton", "poppy", "volibear", "kennen", "darius", "vayne", "warwick", "fiora", "aatrox", "gragas", "sett", "singed", "sylas", "vladimir", "camille", "graves", "akali", "garen", "mordekaiser", "gnar", "jayce", "kled", "shen", "riven", "trundle", "yorick", "ornn", "sion", "urgot", "yasuo", "chogath", "wukong", "jax", "pantheon", "tryndamere", "teemo", "yone", "tahmkench", "akshan", "quinn", "drmundo", "malphite", "irelia", "nasus"],
+			"goodwith": ["rammus", "amumu", "trundle", "vi", "warwick", "nocturne", "nunu", "shaco", "zac", "masteryi", "volibear", "sejuani", "fiddlesticks", "hecarim", "khazix", "poppy", "udyr", "jarvaniv", "viego", "xinzhao", "kayn", "diana", "elise", "reksai", "lillia", "zed", "graves", "ekko", "shyvana", "olaf", "jax", "leesin", "evelynn", "kindred", "qiyana", "rengar", "talon", "gwen", "nidalee"]
+		},
+		"kayn": {
+			"goodvs": ["olaf", "gragas", "leesin", "qiyana", "karthus", "talon", "jax", "nidalee", "zed", "gwen", "udyr", "jarvaniv", "rengar", "evelynn", "reksai", "hecarim", "amumu", "viego", "xinzhao", "sejuani", "zac", "elise", "volibear", "kindred", "shaco", "ekko", "lillia", "shyvana", "khazix", "graves", "warwick", "diana", "nunu", "rammus", "fiddlesticks", "nocturne", "trundle", "vi", "poppy", "masteryi"],
+			"goodwith": ["drmundo", "veigar", "yorick", "garen", "malzahar", "nasus", "shen", "anivia", "kayle", "urgot", "teemo", "chogath", "ahri", "ornn", "trundle", "sion", "malphite", "fizz", "xerath", "lux", "tahmkench", "viktor", "cassiopeia", "diana", "annie", "mordekaiser", "vladimir", "quinn", "kassadin", "ekko", "lissandra", "vayne", "vex", "akali", "volibear", "irelia", "yasuo", "akali", "akshan", "yone", "fiora", "sett", "yone", "katarina", "yasuo", "irelia", "gnar", "riven", "sylas", "jax", "tryndamere", "camille", "zed", "zoe", "syndra", "orianna", "darius", "talon", "corki", "illaoi", "jayce", "qiyana", "leblanc", "gangplank", "gwen", "aatrox", "renekton", "twistedfate", "ryze"]
+		},
+		"kennen": {
+			"goodvs": ["gwen", "aatrox", "jax", "illaoi", "yasuo", "sett", "wukong", "volibear", "renekton", "yone", "rumble", "heimerdinger", "poppy", "warwick", "zeri", "akali", "tryndamere", "gangplank", "riven", "vayne", "camille", "darius", "fiora", "gnar", "vladimir", "trundle", "kled", "singed", "tahmkench", "jayce", "gragas", "malphite", "graves", "quinn", "teemo", "viktor", "mordekaiser", "sylas", "garen", "kayle", "akshan", "sion", "ornn", "irelia", "urgot", "chogath", "shen", "nasus", "yorick", "drmundo"],
+			"goodwith": ["rammus", "masteryi", "trundle", "graves", "vi", "volibear", "zac", "nunu", "nocturne", "kindred", "sejuani", "zed", "xinzhao", "shyvana", "poppy", "warwick", "shaco", "diana", "khazix", "hecarim", "reksai", "jax", "kayn", "jarvaniv", "amumu", "udyr", "viego", "ekko", "talon", "rengar", "elise", "olaf", "leesin", "evelynn", "gwen", "fiddlesticks", "nidalee", "qiyana", "lillia"]
+		},
+		"khazix": {
+			"goodvs": ["olaf", "gwen", "zed", "leesin", "qiyana", "karthus", "evelynn", "nidalee", "gragas", "kindred", "jarvaniv", "jax", "talon", "lillia", "kayn", "reksai", "xinzhao", "graves", "viego", "udyr", "rengar", "ekko", "hecarim", "elise", "shyvana", "poppy", "amumu", "trundle", "fiddlesticks", "masteryi", "shaco", "nocturne", "diana", "zac", "vi", "sejuani", "warwick", "volibear", "nunu", "rammus"],
+			"goodwith": ["drmundo", "anivia", "veigar", "garen", "xerath", "ahri", "ornn", "chogath", "yorick", "kayle", "annie", "malzahar", "urgot", "viktor", "nasus", "lux", "fizz", "sion", "diana", "shen", "mordekaiser", "malphite", "trundle", "teemo", "vladimir", "lissandra", "vex", "cassiopeia", "ekko", "quinn", "kassadin", "tahmkench", "akali", "riven", "syndra", "katarina", "akshan", "camille", "fiora", "volibear", "irelia", "orianna", "vayne", "yone", "akali", "sett", "jax", "irelia", "tryndamere", "sylas", "zoe", "corki", "yasuo", "darius", "gnar", "yone", "qiyana", "gwen", "illaoi", "jayce", "zed", "gangplank", "aatrox", "leblanc", "yasuo", "renekton", "twistedfate", "ryze"]
+		},
+		"kindred": {
+			"goodvs": ["olaf", "karthus", "gwen", "lillia", "leesin", "zed", "reksai", "nidalee", "jarvaniv", "qiyana", "gragas", "rengar", "talon", "kayn", "evelynn", "graves", "udyr", "viego", "hecarim", "ekko", "zac", "amumu", "shyvana", "xinzhao", "elise", "trundle", "volibear", "fiddlesticks", "nunu", "poppy", "diana", "warwick", "jax", "khazix", "sejuani", "nocturne", "vi", "shaco", "rammus", "masteryi"],
+			"goodwith": ["galio", "drmundo", "ornn", "fizz", "diana", "tahmkench", "anivia", "ahri", "garen", "veigar", "yorick", "urgot", "chogath", "gragas", "malphite", "shen", "sion", "cassiopeia", "teemo", "mordekaiser", "vex", "akali", "viktor", "trundle", "nasus", "lux", "xerath", "ekko", "annie", "riven", "lissandra", "akali", "malzahar", "katarina", "irelia", "sylas", "talon", "fiora", "kassadin", "kayle", "irelia", "graves", "vladimir", "yasuo", "akshan", "volibear", "zoe", "sett", "leblanc", "zed", "camille", "qiyana", "yone", "gnar", "darius", "tryndamere", "jax", "yone", "jayce", "aatrox", "syndra", "gwen", "vayne", "orianna", "illaoi", "renekton", "twistedfate", "gangplank", "corki", "ryze"]
+		},
+		"kled": {
+			"goodvs": ["renekton", "aatrox", "gangplank", "tryndamere", "akali", "yasuo", "pantheon", "vladimir", "riven", "sett", "darius", "jayce", "kennen", "graves", "gnar", "gragas", "irelia", "yone", "akshan", "drmundo", "camille", "warwick", "jax", "wukong", "poppy", "illaoi", "tahmkench", "volibear", "gwen", "trundle", "quinn", "yorick", "chogath", "malphite", "sion", "urgot", "teemo", "nasus", "mordekaiser", "kayle", "ornn", "vayne", "shen", "garen", "fiora", "singed"],
+			"goodwith": ["trundle", "rammus", "nunu", "fiddlesticks", "volibear", "sejuani", "zac", "ekko", "warwick", "nocturne", "elise", "amumu", "vi", "diana", "masteryi", "shyvana", "poppy", "lillia", "khazix", "graves", "shaco", "kindred", "jax", "hecarim", "karthus", "jarvaniv", "gwen", "udyr", "zed", "viego", "reksai", "xinzhao", "nidalee", "kayn", "evelynn", "rengar", "talon", "gragas", "qiyana", "leesin", "olaf"]
+		},
+		"kogmaw": {
+			"goodvs": ["aphelios", "varus", "samira", "lucian", "caitlyn", "ezreal", "xayah", "kaisa", "tristana", "draven", "kalista", "ashe", "zeri", "jinx", "jhin", "vayne", "twitch", "senna", "yasuo", "missfortune", "sivir", "veigar", "ziggs"],
+			"goodwith": ["blitzcrank", "braum", "nami", "zyra", "lulu", "janna", "sona", "xerath", "soraka", "morgana", "alistar", "swain", "brand", "leona", "lux", "senna", "nautilus", "pyke", "rakan", "velkoz", "zilean", "bard", "pantheon", "thresh", "karma", "seraphine", "yuumi", "vex"]
+		},
+		"leblanc": {
+			"goodvs": ["azir", "ryze", "corki", "twistedfate", "syndra", "sylas", "zoe", "orianna", "talon", "yone", "jayce", "akali", "malphite", "qiyana", "xerath", "zed", "irelia", "zeri", "pantheon", "vladimir", "viktor", "ekko", "yasuo", "neeko", "katarina", "galio", "lux", "kassadin", "fizz", "lissandra", "diana", "annie", "brand", "anivia", "cassiopeia", "akshan", "ahri", "veigar", "vex", "malzahar"],
+			"goodwith": ["trundle", "graves", "nunu", "zac", "vi", "masteryi", "kindred", "fiddlesticks", "nocturne", "rammus", "xinzhao", "poppy", "volibear", "khazix", "shaco", "warwick", "jax", "hecarim", "shyvana", "diana", "ekko", "elise", "reksai", "kayn", "talon", "udyr", "sejuani", "lillia", "jarvaniv", "gwen", "viego", "zed", "amumu", "nidalee", "evelynn", "qiyana", "rengar", "leesin", "olaf"]
+		},
+		"leesin": {
+			"goodvs": ["qiyana", "karthus", "talon", "rengar", "nidalee", "olaf", "zed", "gragas", "kindred", "jarvaniv", "jax", "gwen", "evelynn", "viego", "graves", "udyr", "reksai", "khazix", "kayn", "xinzhao", "hecarim", "elise", "ekko", "shaco", "masteryi", "amumu", "fiddlesticks", "poppy", "lillia", "diana", "sejuani", "volibear", "nunu", "trundle", "shyvana", "zac", "nocturne", "vi", "warwick", "rammus"],
+			"goodwith": ["drmundo", "garen", "veigar", "ahri", "kayle", "anivia", "diana", "teemo", "nasus", "yorick", "viktor", "malzahar", "urgot", "quinn", "ornn", "mordekaiser", "fizz", "xerath", "malphite", "lissandra", "cassiopeia", "trundle", "shen", "sion", "graves", "vayne", "kassadin", "chogath", "vex", "vladimir", "irelia", "lux", "irelia", "riven", "fiora", "akshan", "tahmkench", "talon", "ekko", "yasuo", "katarina", "volibear", "akali", "jayce", "gragas", "jax", "tryndamere", "yone", "camille", "zoe", "yasuo", "akali", "yone", "sylas", "sett", "darius", "qiyana", "gnar", "kennen", "leblanc", "orianna", "zed", "syndra", "gwen", "gangplank", "aatrox", "renekton", "illaoi", "twistedfate", "corki", "ryze"]
+		},
+		"leona": {
+			"goodvs": ["yuumi", "pantheon", "thresh", "vex", "malphite", "nautilus", "karma", "pyke", "seraphine", "galio", "lulu", "bard", "nami", "rakan", "maokai", "blitzcrank", "xerath", "senna", "lux", "sona", "velkoz", "alistar", "braum", "veigar", "rell", "taric", "zyra", "zilean", "janna", "brand", "soraka", "morgana", "swain", "shaco"],
+			"goodwith": ["ziggs", "missfortune", "twitch", "vayne", "zeri", "sivir", "samira", "senna", "tristana", "jinx", "jhin", "kaisa", "ezreal", "ashe", "kalista", "xayah", "draven", "varus", "lucian", "aphelios", "caitlyn"]
+		},
+		"lillia": {
+			"goodvs": ["olaf", "leesin", "gragas", "jax", "gwen", "sejuani", "nidalee", "poppy", "rammus", "karthus", "warwick", "talon", "amumu", "udyr", "hecarim", "volibear", "zac", "qiyana", "viego", "kayn", "elise", "shaco", "zed", "evelynn", "xinzhao", "jarvaniv", "trundle", "reksai", "rengar", "shyvana", "nunu", "ekko", "graves", "fiddlesticks", "khazix", "vi", "nocturne", "kindred", "diana", "masteryi"],
+			"goodwith": ["drmundo", "garen", "urgot", "trundle", "nasus", "chogath", "quinn", "yorick", "irelia", "akshan", "yone", "fizz", "yasuo", "veigar", "malphite", "zed", "sett", "wukong", "ahri", "kayle", "sion", "shen", "tahmkench", "tryndamere", "anivia", "qiyana", "talon", "lux", "akali", "xerath", "ekko", "riven", "fiora", "ornn", "malzahar", "vayne", "teemo", "katarina", "irelia", "mordekaiser", "jax", "darius", "volibear", "viktor", "sylas", "jayce", "yone", "graves", "camille", "vladimir", "yasuo", "cassiopeia", "kassadin", "vex", "illaoi", "gnar", "aatrox", "jayce", "akali", "gwen", "gangplank", "leblanc", "renekton", "corki", "syndra"]
+		},
+		"lissandra": {
+			"goodvs": ["ryze", "leblanc", "twistedfate", "yasuo", "qiyana", "syndra", "akali", "jayce", "talon", "fizz", "vex", "zeri", "zoe", "irelia", "corki", "ekko", "zed", "katarina", "orianna", "akshan", "yone", "vladimir", "kassadin", "sylas", "annie", "galio", "ahri", "malzahar", "lux", "diana", "brand", "velkoz", "xerath", "cassiopeia", "veigar", "viktor", "anivia"],
+			"goodwith": ["masteryi", "vi", "trundle", "volibear", "nocturne", "warwick", "shyvana", "nunu", "khazix", "graves", "zed", "shaco", "rammus", "viego", "sejuani", "ekko", "rengar", "kindred", "zac", "xinzhao", "hecarim", "diana", "amumu", "reksai", "kayn", "poppy", "jax", "elise", "evelynn", "nidalee", "lillia", "jarvaniv", "fiddlesticks", "udyr", "qiyana", "gwen", "leesin", "talon", "olaf"]
+		},
+		"lucian": {
+			"goodvs": ["kalista", "aphelios", "varus", "samira", "caitlyn", "xayah", "ezreal", "kaisa", "twitch", "ashe", "jinx", "yasuo", "draven", "zeri", "vayne", "tristana", "kogmaw", "jhin", "sivir", "senna", "missfortune", "ziggs", "veigar"],
+			"goodwith": ["sona", "blitzcrank", "nami", "yuumi", "soraka", "janna", "zyra", "maokai", "brand", "zilean", "braum", "lux", "swain", "morgana", "senna", "xerath", "alistar", "rakan", "leona", "nautilus", "velkoz", "bard", "karma", "lulu", "pyke", "seraphine", "thresh", "pantheon", "vex"]
+		},
+		"lulu": {
+			"goodvs": ["vex", "pantheon", "thresh", "shaco", "galio", "rakan", "yuumi", "karma", "alistar", "braum", "pyke", "seraphine", "bard", "veigar", "rell", "swain", "morgana", "zilean", "nautilus", "nami", "leona", "lux", "janna", "maokai", "velkoz", "xerath", "brand", "soraka", "senna", "blitzcrank", "zyra", "sona"],
+			"goodwith": ["zeri", "twitch", "vayne", "kogmaw", "jinx", "tristana", "ashe", "sivir", "missfortune", "draven", "xayah", "ezreal", "jhin", "varus", "kaisa", "lucian", "caitlyn", "aphelios", "samira"]
+		},
+		"lux": {
+			"goodvs": ["vex", "thresh", "seraphine", "veigar", "galio", "rakan", "malphite", "bard", "senna", "pantheon", "yuumi", "braum", "karma", "alistar", "morgana", "lulu", "swain", "leona", "rell", "pyke", "brand", "janna", "velkoz", "nautilus", "nami", "zilean", "soraka", "zyra", "sona", "maokai", "shaco", "blitzcrank", "xerath"],
+			"goodwith": ["veigar", "yasuo", "jhin", "vayne", "senna", "tristana", "sivir", "ziggs", "missfortune", "zeri", "ashe", "jinx", "draven", "kaisa", "ezreal", "twitch", "xayah", "caitlyn", "samira", "lucian", "varus", "aphelios"]
+		},
+		"malphite": {
+			"goodvs": ["vayne", "jax", "tryndamere", "aatrox", "jayce", "poppy", "gangplank", "quinn", "gnar", "renekton", "yasuo", "fiora", "wukong", "akshan", "kennen", "graves", "gwen", "sett", "irelia", "camille", "teemo", "darius", "zeri", "kayle", "yone", "trundle", "riven", "kled", "illaoi", "akali", "gragas", "volibear", "warwick", "vladimir", "yorick", "urgot", "garen", "singed", "ornn", "tahmkench", "shen", "sion", "nasus", "mordekaiser", "chogath", "drmundo", "sylas"],
+			"goodwith": ["trundle", "masteryi", "shyvana", "volibear", "nocturne", "vi", "warwick", "graves", "diana", "ekko", "sejuani", "nunu", "viego", "lillia", "khazix", "shaco", "zac", "rammus", "udyr", "kayn", "xinzhao", "kindred", "hecarim", "poppy", "fiddlesticks", "jax", "jarvaniv", "reksai", "elise", "zed", "gwen", "rengar", "amumu", "talon", "karthus", "evelynn", "nidalee", "qiyana", "olaf", "leesin"]
+		},
+		"malzahar": {
+			"goodvs": ["ryze", "leblanc", "vladimir", "zoe", "twistedfate", "azir", "akali", "jayce", "sylas", "qiyana", "zed", "yasuo", "neeko", "syndra", "cassiopeia", "vex", "annie", "lissandra", "kassadin", "corki", "irelia", "orianna", "katarina", "yone", "ekko", "galio", "akshan", "anivia", "veigar", "xerath", "velkoz", "ahri", "lux", "fizz", "zeri", "talon", "viktor", "brand", "diana", "ziggs"],
+			"goodwith": ["masteryi", "nocturne", "zac", "rammus", "vi", "trundle", "shyvana", "warwick", "shaco", "volibear", "khazix", "nunu", "ekko", "amumu", "diana", "kayn", "viego", "hecarim", "sejuani", "graves", "jax", "xinzhao", "fiddlesticks", "jarvaniv", "reksai", "poppy", "udyr", "lillia", "talon", "gwen", "elise", "zed", "rengar", "evelynn", "kindred", "nidalee", "qiyana", "leesin", "olaf"]
+		},
+		"maokai": {
+			"goodvs": ["pantheon", "vex", "seraphine", "pyke", "veigar", "karma", "thresh", "malphite", "rakan", "galio", "bard", "yuumi", "xerath", "lulu", "lux", "nami", "nautilus", "zilean", "janna", "velkoz", "leona", "morgana", "alistar", "braum", "soraka", "brand", "rell", "senna", "blitzcrank", "zyra", "swain", "shaco", "sona"],
+			"goodwith": ["ziggs", "senna", "vayne", "missfortune", "sivir", "xayah", "twitch", "jhin", "kaisa", "tristana", "jinx", "ezreal", "yasuo", "ashe", "zeri", "samira", "varus", "lucian", "draven", "veigar", "aphelios", "caitlyn", "kalista"]
+		},
+		"masteryi": {
+			"goodvs": ["olaf", "karthus", "gwen", "zed", "rengar", "kindred", "qiyana", "talon", "kayn", "nidalee", "leesin", "gragas", "lillia", "jarvaniv", "poppy", "reksai", "xinzhao", "evelynn", "diana", "viego", "graves", "shyvana", "hecarim", "nocturne", "khazix", "nunu", "fiddlesticks", "amumu", "ekko", "volibear", "jax", "sejuani", "udyr", "elise", "warwick", "shaco", "trundle", "vi", "rammus", "zac"],
+			"goodwith": ["drmundo", "malzahar", "teemo", "veigar", "urgot", "garen", "chogath", "anivia", "ornn", "lux", "ahri", "shen", "malphite", "mordekaiser", "nasus", "xerath", "yorick", "diana", "sion", "annie", "fizz", "viktor", "kayle", "trundle", "tahmkench", "lissandra", "vex", "ekko", "akali", "cassiopeia", "vladimir", "volibear", "sett", "quinn", "akali", "fiora", "irelia", "akshan", "yasuo", "yone", "kassadin", "katarina", "tryndamere", "illaoi", "sylas", "jax", "yone", "riven", "syndra", "orianna", "yasuo", "irelia", "gnar", "vayne", "corki", "zed", "gangplank", "darius", "zoe", "camille", "qiyana", "talon", "gwen", "jayce", "leblanc", "aatrox", "renekton", "twistedfate", "ryze"]
+		},
+		"missfortune": {
+			"goodvs": ["kalista", "aphelios", "varus", "lucian", "caitlyn", "xayah", "samira", "ashe", "kaisa", "jinx", "draven", "kogmaw", "ezreal", "twitch", "tristana", "vayne", "zeri", "sivir", "senna", "jhin", "yasuo", "veigar", "ziggs"],
+			"goodwith": ["blitzcrank", "shaco", "zyra", "rell", "sona", "maokai", "brand", "leona", "nautilus", "swain", "morgana", "xerath", "velkoz", "veigar", "janna", "lux", "pyke", "alistar", "braum", "zilean", "senna", "rakan", "galio", "soraka", "malphite", "nami", "bard", "seraphine", "pantheon", "lulu", "karma", "thresh", "vex", "yuumi"]
+		},
+		"mordekaiser": {
+			"goodvs": ["renekton", "illaoi", "camille", "gragas", "malphite", "tahmkench", "poppy", "aatrox", "kennen", "shen", "gwen", "sylas", "wukong", "gangplank", "irelia", "sett", "gnar", "darius", "ornn", "volibear", "jayce", "sion", "chogath", "kled", "riven", "akali", "urgot", "graves", "quinn", "teemo", "garen", "jax", "yasuo", "yorick", "tryndamere", "trundle", "nasus", "yone", "fiora", "singed", "warwick", "kayle", "vayne", "drmundo"],
+			"goodwith": ["trundle", "masteryi", "vi", "nocturne", "rammus", "nunu", "warwick", "sejuani", "zac", "volibear", "shaco", "shyvana", "xinzhao", "graves", "khazix", "poppy", "diana", "hecarim", "ekko", "udyr", "jarvaniv", "viego", "kayn", "talon", "fiddlesticks", "jax", "kindred", "amumu", "lillia", "zed", "reksai", "rengar", "elise", "olaf", "leesin", "gwen", "evelynn", "qiyana", "nidalee"]
+		},
+		"morgana": {
+			"goodvs": ["thresh", "vex", "malphite", "rakan", "seraphine", "bard", "leona", "pyke", "veigar", "braum", "galio", "nautilus", "alistar", "pantheon", "rell", "yuumi", "karma", "maokai", "lulu", "swain", "janna", "nami", "velkoz", "lux", "senna", "zilean", "soraka", "blitzcrank", "brand", "shaco", "xerath", "sona", "zyra"],
+			"goodwith": ["veigar", "ziggs", "missfortune", "senna", "sivir", "jhin", "vayne", "kogmaw", "zeri", "tristana", "twitch", "jinx", "ashe", "draven", "xayah", "caitlyn", "kaisa", "ezreal", "samira", "varus", "lucian", "aphelios"]
+		},
+		"nami": {
+			"goodvs": ["vex", "thresh", "pyke", "rell", "rakan", "galio", "karma", "seraphine", "pantheon", "bard", "yuumi", "braum", "alistar", "velkoz", "morgana", "swain", "lulu", "shaco", "lux", "nautilus", "zilean", "senna", "leona", "soraka", "xerath", "janna", "maokai", "sona", "brand", "blitzcrank", "zyra"],
+			"goodwith": ["brand", "veigar", "yasuo", "twitch", "zeri", "kogmaw", "vayne", "ziggs", "jhin", "sivir", "tristana", "senna", "xayah", "missfortune", "lucian", "jinx", "draven", "ashe", "kaisa", "ezreal", "varus", "samira", "caitlyn", "aphelios"]
+		},
+		"nasus": {
+			"goodvs": ["kennen", "jayce", "vladimir", "renekton", "gnar", "akali", "gragas", "irelia", "yasuo", "malphite", "gangplank", "vayne", "jax", "illaoi", "akshan", "sett", "poppy", "warwick", "aatrox", "graves", "fiora", "kayle", "tryndamere", "gwen", "wukong", "riven", "kled", "drmundo", "camille", "mordekaiser", "darius", "quinn", "ornn", "yone", "chogath", "sion", "volibear", "teemo", "trundle", "singed", "tahmkench", "sylas", "yorick", "urgot", "shen", "garen"],
+			"goodwith": ["zac", "shaco", "masteryi", "vi", "rammus", "trundle", "nunu", "nocturne", "diana", "elise", "shyvana", "sejuani", "warwick", "volibear", "lillia", "fiddlesticks", "amumu", "ekko", "poppy", "khazix", "hecarim", "kayn", "graves", "viego", "xinzhao", "zed", "jax", "udyr", "evelynn", "jarvaniv", "karthus", "reksai", "kindred", "talon", "gragas", "rengar", "nidalee", "gwen", "qiyana", "olaf", "leesin"]
+		},
+		"nautilus": {
+			"goodvs": ["yuumi", "karma", "vex", "pantheon", "malphite", "thresh", "pyke", "seraphine", "xerath", "veigar", "rakan", "lulu", "bard", "lux", "nami", "galio", "senna", "velkoz", "maokai", "zilean", "zyra", "blitzcrank", "soraka", "alistar", "leona", "sona", "shaco", "morgana", "braum", "janna", "brand", "rell", "taric", "swain"],
+			"goodwith": ["ziggs", "cassiopeia", "veigar", "missfortune", "sivir", "samira", "yasuo", "senna", "vayne", "zeri", "tristana", "jinx", "kaisa", "twitch", "jhin", "kalista", "draven", "xayah", "ezreal", "ashe", "lucian", "varus", "caitlyn", "aphelios"]
+		},
+		"neeko": {
+			"goodvs": ["ryze", "twistedfate", "leblanc", "galio", "orianna", "qiyana", "annie", "zoe", "corki", "talon", "lissandra", "jayce", "akali", "vex", "kassadin", "sylas", "irelia", "akshan", "katarina", "zed", "yone", "vladimir", "yasuo", "zeri", "diana", "viktor", "syndra", "fizz", "ekko", "ahri", "cassiopeia", "heimerdinger", "pantheon", "malzahar", "ziggs", "brand", "veigar", "xerath", "lux", "velkoz", "anivia"],
+			"goodwith": ["masteryi", "trundle", "rammus", "nocturne", "jax", "elise", "vi", "viego", "warwick", "nunu", "amumu", "volibear", "shaco", "kayn", "graves", "diana", "zac", "ekko", "khazix", "evelynn", "lillia", "hecarim", "udyr", "gwen", "kindred", "poppy", "sejuani", "xinzhao", "zed", "shyvana", "fiddlesticks", "rengar", "leesin", "jarvaniv", "talon", "reksai", "nidalee", "olaf", "qiyana"]
+		},
+		"nidalee": {
+			"goodvs": ["karthus", "gwen", "gragas", "leesin", "graves", "qiyana", "viego", "talon", "zed", "jarvaniv", "evelynn", "kindred", "kayn", "reksai", "xinzhao", "rengar", "elise", "lillia", "khazix", "ekko", "hecarim", "shaco", "trundle", "amumu", "shyvana", "nocturne", "fiddlesticks", "diana", "volibear", "masteryi", "sejuani", "nunu", "vi", "poppy", "udyr", "zac", "warwick", "rammus"],
+			"goodwith": ["drmundo", "poppy", "pantheon", "talon", "quinn", "garen", "renekton", "irelia", "anivia", "qiyana", "yorick", "urgot", "xerath", "fiora", "riven", "lissandra", "akshan", "ahri", "camille", "nasus", "ornn", "zed", "vayne", "sion", "malzahar", "trundle", "malphite", "graves", "fizz", "irelia", "yone", "gnar", "kassadin", "tryndamere", "yasuo", "jayce", "veigar", "yone", "shen", "viktor", "jayce", "sett", "vladimir", "darius", "zoe", "tahmkench", "lux", "vex", "jax", "aatrox", "sylas", "gragas", "volibear", "renekton", "gangplank", "mordekaiser", "teemo", "katarina", "twistedfate", "leblanc", "akali", "akali", "illaoi", "syndra", "gwen", "corki"]
+		},
+		"nocturne": {
+			"goodvs": ["qiyana", "leesin", "olaf", "reksai", "nidalee", "rengar", "zed", "talon", "elise", "karthus", "poppy", "kindred", "kayn", "evelynn", "viego", "jarvaniv", "gwen", "xinzhao", "lillia", "khazix", "fiddlesticks", "jax", "vi", "hecarim", "graves", "udyr", "shaco", "diana", "warwick", "amumu", "ekko", "shyvana", "volibear", "sejuani", "trundle", "masteryi", "zac", "nunu", "rammus"],
+			"goodwith": ["drmundo", "yorick", "garen", "anivia", "veigar", "malzahar", "kayle", "urgot", "diana", "chogath", "nasus", "ornn", "ahri", "sion", "shen", "viktor", "teemo", "mordekaiser", "lux", "annie", "quinn", "fizz", "malphite", "cassiopeia", "xerath", "trundle", "ekko", "vladimir", "tahmkench", "irelia", "lissandra", "kassadin", "volibear", "akali", "vex", "yasuo", "yone", "katarina", "sett", "fiora", "orianna", "irelia", "akshan", "vayne", "yone", "yasuo", "akali", "jax", "darius", "tryndamere", "riven", "illaoi", "sylas", "jayce", "corki", "gnar", "syndra", "camille", "talon", "qiyana", "zed", "gwen", "zoe", "gangplank", "leblanc", "aatrox", "renekton", "twistedfate", "ryze"]
+		},
+		"nunu": {
+			"goodvs": ["olaf", "leesin", "qiyana", "rengar", "nidalee", "gragas", "karthus", "poppy", "evelynn", "zed", "udyr", "jax", "talon", "viego", "hecarim", "gwen", "khazix", "reksai", "elise", "graves", "shaco", "nocturne", "kayn", "jarvaniv", "kindred", "amumu", "rammus", "warwick", "shyvana", "ekko", "xinzhao", "fiddlesticks", "diana", "volibear", "zac", "vi", "lillia", "sejuani", "trundle", "masteryi"],
+			"goodwith": ["garen", "urgot", "quinn", "veigar", "fizz", "drmundo", "yorick", "ahri", "kayle", "nasus", "shen", "yasuo", "vayne", "cassiopeia", "diana", "viktor", "fiora", "chogath", "yone", "irelia", "sion", "trundle", "lux", "yasuo", "riven", "irelia", "akshan", "katarina", "mordekaiser", "ekko", "vladimir", "talon", "zed", "tryndamere", "yone", "kassadin", "graves", "teemo", "xerath", "sett", "malzahar", "volibear", "annie", "anivia", "ornn", "tahmkench", "darius", "qiyana", "malphite", "vex", "sylas", "jax", "akali", "lissandra", "jayce", "akali", "gnar", "aatrox", "camille", "illaoi", "gangplank", "orianna", "syndra", "zoe", "gwen", "corki", "renekton", "leblanc", "twistedfate"]
+		},
+		"olaf": {
+			"goodvs": ["qiyana", "zed", "gragas", "leesin", "poppy", "rengar", "nidalee", "amumu", "evelynn", "xinzhao", "warwick", "jax", "talon", "sejuani", "udyr", "hecarim", "rammus", "elise", "graves", "jarvaniv", "diana", "reksai", "shaco", "viego", "gwen", "fiddlesticks", "vi", "khazix", "shyvana", "nocturne", "kindred", "kayn", "volibear", "ekko", "zac", "lillia", "nunu", "masteryi", "trundle"],
+			"goodwith": ["diana", "kayle", "fizz", "veigar", "anivia", "garen", "vladimir", "ahri", "drmundo", "sion", "ornn", "nasus", "cassiopeia", "urgot", "chogath", "teemo", "mordekaiser", "xerath", "yorick", "malphite", "viktor", "malzahar", "annie", "vayne", "quinn", "zoe", "shen", "riven", "katarina", "trundle", "lux", "akshan", "akali", "sett", "ekko", "yasuo", "yone", "volibear", "lissandra", "kassadin", "jax", "zed", "tahmkench", "tryndamere", "akali", "fiora", "camille", "irelia", "vex", "sylas", "yasuo", "talon", "darius", "irelia", "orianna", "yone", "gnar", "jayce", "gwen", "corki", "qiyana", "illaoi", "gangplank", "syndra", "renekton", "leblanc", "twistedfate", "aatrox", "ryze"]
+		},
+		"orianna": {
+			"goodvs": ["ryze", "twistedfate", "azir", "leblanc", "sylas", "lissandra", "corki", "syndra", "vex", "vladimir", "zoe", "akali", "talon", "cassiopeia", "brand", "malzahar", "neeko", "zed", "zeri", "qiyana", "akshan", "katarina", "jayce", "annie", "galio", "yasuo", "viktor", "yone", "kassadin", "anivia", "ekko", "lux", "irelia", "diana", "fizz", "velkoz", "ahri", "veigar", "xerath"],
+			"goodwith": ["rammus", "nocturne", "nunu", "warwick", "masteryi", "udyr", "trundle", "khazix", "vi", "sejuani", "diana", "ekko", "amumu", "shaco", "hecarim", "volibear", "viego", "poppy", "zac", "evelynn", "xinzhao", "shyvana", "jax", "gwen", "kayn", "elise", "graves", "reksai", "kindred", "rengar", "jarvaniv", "nidalee", "qiyana", "zed", "lillia", "fiddlesticks", "talon", "leesin", "olaf"]
+		},
+		"ornn": {
+			"goodvs": ["renekton", "jayce", "gangplank", "kennen", "aatrox", "gragas", "gnar", "darius", "malphite", "akshan", "jax", "quinn", "akali", "riven", "tryndamere", "teemo", "gwen", "graves", "vladimir", "sylas", "wukong", "volibear", "kled", "tahmkench", "sett", "yasuo", "zeri", "poppy", "irelia", "warwick", "camille", "yone", "sion", "chogath", "trundle", "illaoi", "vayne", "fiora", "urgot", "kayle", "nasus", "shen", "yorick", "singed", "mordekaiser", "garen", "drmundo"],
+			"goodwith": ["masteryi", "nocturne", "warwick", "trundle", "vi", "zac", "diana", "khazix", "fiddlesticks", "volibear", "graves", "shaco", "rammus", "nunu", "hecarim", "jax", "kindred", "reksai", "xinzhao", "kayn", "rengar", "ekko", "viego", "amumu", "poppy", "zed", "sejuani", "shyvana", "udyr", "lillia", "jarvaniv", "elise", "evelynn", "talon", "nidalee", "qiyana", "gwen", "olaf", "gragas", "leesin", "karthus"]
+		},
+		"pantheon": {
+			"goodvs": ["vex", "yuumi", "veigar", "seraphine", "velkoz", "thresh", "nami", "pyke", "karma", "malphite", "morgana", "galio", "rakan", "lux", "xerath", "senna", "lulu", "nautilus", "swain", "braum", "zilean", "bard", "zyra", "leona", "brand", "blitzcrank", "sona", "soraka", "rell", "janna", "alistar", "maokai", "taric", "shaco"],
+			"goodwith": ["ziggs", "veigar", "sivir", "senna", "tristana", "jhin", "missfortune", "twitch", "vayne", "zeri", "jinx", "ashe", "kaisa", "draven", "ezreal", "xayah", "varus", "yasuo", "samira", "kalista", "lucian", "aphelios", "caitlyn"]
+		},
+		"poppy": {
+			"goodvs": ["nidalee", "leesin", "qiyana", "kayn", "gragas", "talon", "reksai", "jax", "gwen", "evelynn", "rengar", "jarvaniv", "kindred", "zed", "graves", "khazix", "xinzhao", "viego", "ekko", "hecarim", "olaf", "karthus", "vi", "elise", "udyr", "diana", "amumu", "zac", "fiddlesticks", "shaco", "volibear", "sejuani", "shyvana", "lillia", "warwick", "masteryi", "nocturne", "trundle", "nunu", "rammus"],
+			"goodwith": ["quinn", "veigar", "garen", "anivia", "yorick", "drmundo", "kayle", "sion", "cassiopeia", "urgot", "nasus", "xerath", "diana", "teemo", "trundle", "ahri", "viktor", "chogath", "vayne", "irelia", "mordekaiser", "vex", "fizz", "graves", "ornn", "kassadin", "malzahar", "riven", "lux", "akali", "irelia", "katarina", "yone", "talon", "fiora", "malphite", "ekko", "yone", "akshan", "vladimir", "shen", "tahmkench", "zed", "yasuo", "tryndamere", "darius", "volibear", "jayce", "akali", "zoe", "yasuo", "lissandra", "sett", "gangplank", "jax", "sylas", "gnar", "gragas", "illaoi", "syndra", "camille", "orianna", "renekton", "qiyana", "gwen", "leblanc", "twistedfate", "corki", "aatrox", "ryze"]
+		},
+		"pyke": {
+			"goodvs": ["karma", "thresh", "seraphine", "pantheon", "yuumi", "velkoz", "vex", "galio", "bard", "senna", "xerath", "lux", "taric", "veigar", "lulu", "rell", "malphite", "braum", "nautilus", "leona", "zilean", "rakan", "alistar", "janna", "nami", "brand", "morgana", "blitzcrank", "zyra", "sona", "soraka", "swain", "maokai", "shaco"],
+			"goodwith": ["ziggs", "veigar", "missfortune", "sivir", "senna", "vayne", "tristana", "zeri", "yasuo", "ashe", "twitch", "jinx", "kaisa", "jhin", "draven", "xayah", "ezreal", "samira", "aphelios", "varus", "lucian", "caitlyn", "kalista"]
+		},
+		"qiyana": {
+			"goodvs": ["ryze", "azir", "corki", "syndra", "zeri", "twistedfate", "orianna", "leblanc", "kassadin", "zoe", "zed", "akali", "cassiopeia", "jayce", "katarina", "xerath", "vladimir", "annie", "sylas", "velkoz", "akshan", "talon", "viktor", "ekko", "yone", "anivia", "neeko", "galio", "lux", "ahri", "brand", "yasuo", "irelia", "lissandra", "veigar", "vex", "malzahar", "pantheon", "fizz", "malphite", "diana"],
+			"goodwith": ["rammus", "fiddlesticks", "zac", "nunu", "diana", "ekko", "volibear", "lillia", "taliyah", "elise", "trundle", "shyvana", "nidalee", "warwick", "sejuani", "nocturne", "masteryi", "gwen", "shaco", "graves", "vi", "kindred", "khazix", "evelynn", "amumu", "karthus", "hecarim", "poppy", "gragas", "reksai", "xinzhao", "viego", "jarvaniv", "udyr", "kayn", "jax", "talon", "zed", "rengar", "leesin", "olaf"]
+		},
+		"quinn": {
+			"goodvs": ["renekton", "gangplank", "jayce", "darius", "gwen", "vladimir", "jax", "akali", "trundle", "riven", "illaoi", "volibear", "zeri", "vayne", "gnar", "kennen", "aatrox", "tryndamere", "camille", "garen", "fiora", "sett", "yone", "poppy", "gragas", "wukong", "kled", "graves", "singed", "yasuo", "kayle", "shen", "chogath", "mordekaiser", "sion", "tahmkench", "nasus", "teemo", "irelia", "akshan", "ornn", "viktor", "drmundo", "urgot", "yorick", "malphite"],
+			"goodwith": ["nunu", "zac", "rammus", "sejuani", "volibear", "trundle", "poppy", "amumu", "diana", "ekko", "nocturne", "fiddlesticks", "warwick", "shyvana", "lillia", "udyr", "evelynn", "graves", "masteryi", "vi", "shaco", "hecarim", "jarvaniv", "karthus", "viego", "khazix", "gwen", "jax", "kayn", "nidalee", "elise", "xinzhao", "gragas", "reksai", "kindred", "talon", "leesin", "rengar", "qiyana", "zed", "olaf"]
+		},
+		"rakan": {
+			"goodvs": ["thresh", "yuumi", "pantheon", "pyke", "karma", "vex", "malphite", "galio", "velkoz", "leona", "seraphine", "braum", "alistar", "xerath", "nautilus", "bard", "blitzcrank", "lulu", "nami", "zilean", "taric", "maokai", "lux", "morgana", "rell", "shaco", "soraka", "senna", "janna", "brand", "veigar", "swain", "sona", "zyra"],
+			"goodwith": ["veigar", "ziggs", "zeri", "sivir", "twitch", "missfortune", "yasuo", "vayne", "tristana", "jhin", "jinx", "ezreal", "senna", "xayah", "ashe", "lucian", "samira", "kaisa", "varus", "draven", "caitlyn", "aphelios", "kalista"]
+		},
+		"rammus": {
+			"goodvs": ["rengar", "leesin", "nidalee", "gragas", "zed", "qiyana", "evelynn", "talon", "poppy", "jax", "kindred", "viego", "xinzhao", "reksai", "karthus", "khazix", "graves", "olaf", "elise", "udyr", "jarvaniv", "kayn", "hecarim", "nocturne", "ekko", "masteryi", "shyvana", "gwen", "vi", "fiddlesticks", "warwick", "diana", "shaco", "volibear", "sejuani", "amumu", "nunu", "zac", "lillia", "trundle"],
+			"goodwith": ["kayle", "urgot", "garen", "yorick", "drmundo", "veigar", "diana", "vayne", "quinn", "yasuo", "nasus", "trundle", "xerath", "malzahar", "akshan", "yone", "ahri", "fizz", "viktor", "irelia", "teemo", "anivia", "cassiopeia", "sion", "lux", "mordekaiser", "irelia", "shen", "fiora", "graves", "tryndamere", "volibear", "zed", "chogath", "katarina", "yasuo", "riven", "darius", "annie", "qiyana", "jayce", "yone", "ekko", "vladimir", "kassadin", "ornn", "talon", "sett", "akali", "gangplank", "jax", "akali", "malphite", "gnar", "vex", "orianna", "tahmkench", "camille", "lissandra", "aatrox", "sylas", "corki", "illaoi", "gwen", "renekton", "zoe", "syndra", "leblanc", "twistedfate"]
+		},
+		"reksai": {
+			"goodvs": ["olaf", "qiyana", "gragas", "leesin", "gwen", "nidalee", "zed", "rengar", "evelynn", "viego", "jarvaniv", "talon", "karthus", "lillia", "kayn", "xinzhao", "hecarim", "udyr", "khazix", "kindred", "elise", "diana", "ekko", "graves", "shaco", "shyvana", "nunu", "poppy", "masteryi", "zac", "rammus", "fiddlesticks", "amumu", "vi", "sejuani", "volibear", "warwick", "nocturne", "trundle"],
+			"goodwith": ["anivia", "kassadin", "veigar", "drmundo", "ornn", "viktor", "kayle", "ahri", "malzahar", "garen", "annie", "cassiopeia", "yorick", "urgot", "vladimir", "fizz", "nasus", "shen", "chogath", "xerath", "ekko", "mordekaiser", "malphite", "fiora", "sion", "irelia", "lissandra", "riven", "graves", "quinn", "camille", "teemo", "katarina", "diana", "volibear", "gragas", "trundle", "sylas", "vex", "zoe", "sett", "vayne", "gnar", "lux", "jax", "tryndamere", "tahmkench", "yasuo", "akali", "akali", "darius", "jayce", "talon", "yasuo", "irelia", "gwen", "qiyana", "yone", "renekton", "orianna", "yone", "leblanc", "gangplank", "akshan", "illaoi", "syndra", "zed", "aatrox", "ryze", "corki", "twistedfate"]
+		},
+		"rell": {
+			"goodvs": ["pantheon", "galio", "thresh", "yuumi", "rakan", "nautilus", "braum", "seraphine", "malphite", "karma", "vex", "leona", "maokai", "pyke", "zilean", "blitzcrank", "alistar", "lulu", "lux", "bard", "senna", "velkoz", "xerath", "taric", "morgana", "sona", "veigar", "nami", "soraka", "brand", "zyra", "janna", "shaco", "swain"],
+			"goodwith": ["ziggs", "yasuo", "missfortune", "zeri", "vayne", "samira", "tristana", "twitch", "jinx", "sivir", "kaisa", "senna", "jhin", "kalista", "xayah", "ashe", "lucian", "ezreal", "draven", "aphelios", "varus", "caitlyn"]
+		},
+		"renataglasc": {
+			"goodvs": ["thresh", "galio", "malphite", "pyke", "rakan", "pantheon", "bard", "nautilus", "yuumi", "alistar", "braum", "lulu", "rell", "leona", "seraphine", "shaco", "karma", "janna", "veigar", "senna", "maokai", "blitzcrank", "nami", "morgana", "soraka", "swain", "sona", "velkoz", "lux", "zilean", "zyra", "xerath", "brand"],
+			"goodwith": ["veigar", "vayne", "kogmaw", "ziggs", "twitch", "missfortune", "ashe", "jhin", "yasuo", "samira", "jinx", "draven", "zeri", "tristana", "kaisa", "sivir", "senna", "xayah", "ezreal", "lucian", "varus", "aphelios", "kalista", "caitlyn"]
+		},
+		"renekton": {
+			"goodvs": ["yasuo", "rumble", "yone", "sylas", "riven", "kennen", "irelia", "akali", "gragas", "wukong", "aatrox", "akshan", "jayce", "gangplank", "vladimir", "camille", "sett", "tryndamere", "gwen", "gnar", "fiora", "poppy", "warwick", "graves", "darius", "trundle", "jax", "tahmkench", "malphite", "volibear", "vayne", "yorick", "singed", "kled", "sion", "shen", "quinn", "mordekaiser", "kayle", "illaoi", "chogath", "ornn", "urgot", "nasus", "teemo", "garen", "drmundo"],
+			"goodwith": ["rammus", "shyvana", "nunu", "zac", "diana", "ekko", "shaco", "masteryi", "poppy", "taliyah", "sejuani", "trundle", "fiddlesticks", "vi", "graves", "warwick", "nocturne", "elise", "reksai", "volibear", "khazix", "amumu", "hecarim", "nidalee", "lillia", "kindred", "jarvaniv", "evelynn", "viego", "gwen", "kayn", "xinzhao", "udyr", "jax", "talon", "karthus", "zed", "gragas", "leesin", "rengar", "qiyana", "olaf"]
+		},
+		"rengar": {
+			"goodvs": ["nidalee", "qiyana", "zed", "karthus", "talon", "evelynn", "gragas", "leesin", "olaf", "lillia", "gwen", "khazix", "kindred", "reksai", "kayn", "elise", "ekko", "graves", "viego", "poppy", "hecarim", "jarvaniv", "fiddlesticks", "shaco", "xinzhao", "diana", "amumu", "nocturne", "shyvana", "vi", "zac", "jax", "nunu", "trundle", "masteryi", "warwick", "udyr", "sejuani", "volibear", "rammus"],
+			"goodwith": ["ornn", "drmundo", "sion", "anivia", "viktor", "ahri", "garen", "lissandra", "xerath", "veigar", "urgot", "diana", "malzahar", "trundle", "cassiopeia", "lux", "shen", "chogath", "nasus", "teemo", "mordekaiser", "malphite", "ekko", "annie", "fizz", "kayle", "tahmkench", "quinn", "vladimir", "kassadin", "yorick", "volibear", "akshan", "akali", "riven", "orianna", "vex", "fiora", "katarina", "akali", "gnar", "corki", "tryndamere", "sett", "zoe", "aatrox", "irelia", "yone", "irelia", "camille", "gangplank", "yone", "syndra", "qiyana", "vayne", "gwen", "jax", "sylas", "yasuo", "leblanc", "yasuo", "darius", "zed", "illaoi", "twistedfate", "jayce", "renekton", "ryze"]
+		},
+		"riven": {
+			"goodvs": ["vladimir", "gwen", "yasuo", "gangplank", "yone", "akali", "aatrox", "jax", "jayce", "irelia", "gnar", "gragas", "kennen", "darius", "camille", "akshan", "sett", "sion", "tahmkench", "renekton", "graves", "illaoi", "wukong", "trundle", "fiora", "singed", "shen", "tryndamere", "pantheon", "malphite", "teemo", "warwick", "mordekaiser", "kayle", "nasus", "ornn", "poppy", "kled", "vayne", "yorick", "drmundo", "volibear", "quinn", "chogath", "urgot", "garen"],
+			"goodwith": ["nunu", "rammus", "zac", "sejuani", "fiddlesticks", "diana", "shyvana", "trundle", "elise", "poppy", "ekko", "lillia", "hecarim", "vi", "khazix", "shaco", "masteryi", "graves", "kindred", "volibear", "nocturne", "xinzhao", "talon", "reksai", "amumu", "udyr", "warwick", "evelynn", "nidalee", "jarvaniv", "viego", "kayn", "gwen", "zed", "jax", "gragas", "karthus", "qiyana", "rengar", "leesin", "olaf"]
+		},
+		"rumble": {
+			"goodvs": ["poppy", "sylas", "gangplank", "kennen", "vladimir", "malphite", "gragas", "viktor", "renekton", "darius", "aatrox", "jayce", "gwen", "akali", "jax", "teemo", "illaoi", "vayne", "volibear", "gnar", "yasuo", "camille", "wukong", "fiora", "graves", "quinn", "singed", "warwick", "yone", "tryndamere", "sett", "garen", "trundle", "urgot", "chogath", "kled", "irelia", "nasus", "akshan", "sion", "zeri", "tahmkench", "drmundo", "ornn", "riven", "shen", "kayle", "mordekaiser", "yorick"],
+			"goodwith": ["vi", "trundle", "masteryi", "rammus", "graves", "udyr", "poppy", "talon", "volibear", "kindred", "warwick", "zac", "nocturne", "khazix", "xinzhao", "amumu", "ekko", "reksai", "hecarim", "nunu", "elise", "lillia", "shaco", "jax", "kayn", "diana", "rengar", "sejuani", "olaf", "qiyana", "shyvana", "leesin", "viego", "jarvaniv", "gwen", "fiddlesticks", "zed", "evelynn", "nidalee"]
+		},
+		"ryze": {
+			"goodvs": ["azir", "leblanc", "zoe", "twistedfate", "corki", "sylas", "syndra", "vex", "talon", "jayce", "akali", "lissandra", "galio", "vladimir", "katarina", "qiyana", "zed", "orianna", "annie", "ekko", "zeri", "kassadin", "lux", "akshan", "fizz", "viktor", "neeko", "yone", "ahri", "velkoz", "pantheon", "xerath", "kayle", "diana", "cassiopeia", "yasuo", "brand", "irelia", "veigar", "anivia", "malzahar"],
+			"goodwith": ["trundle", "rammus", "graves", "masteryi", "ekko", "zac", "nocturne", "shyvana", "nunu", "shaco", "fiddlesticks", "reksai", "diana", "poppy", "warwick", "vi", "jarvaniv", "kindred", "xinzhao", "volibear", "khazix", "sejuani", "udyr", "lillia", "elise", "hecarim", "jax", "zed", "amumu", "viego", "kayn", "talon", "gwen", "evelynn", "nidalee", "leesin", "rengar", "qiyana", "olaf"]
+		},
+		"samira": {
+			"goodvs": ["aphelios", "kalista", "varus", "kaisa", "draven", "caitlyn", "lucian", "ezreal", "yasuo", "ashe", "tristana", "twitch", "jhin", "xayah", "sivir", "jinx", "missfortune", "vayne", "senna", "kogmaw", "zeri", "ziggs", "veigar"],
+			"goodwith": ["rell", "nautilus", "alistar", "blitzcrank", "leona", "taric", "maokai", "swain", "zyra", "brand", "sona", "janna", "soraka", "lux", "morgana", "nami", "xerath", "rakan", "pyke", "galio", "senna", "velkoz", "yuumi", "zilean", "thresh", "braum", "seraphine", "pantheon", "malphite", "bard", "vex", "sett", "lulu", "karma"]
+		},
+		"sejuani": {
+			"goodvs": ["qiyana", "gragas", "rengar", "talon", "leesin", "evelynn", "nidalee", "karthus", "reksai", "elise", "zed", "xinzhao", "olaf", "kindred", "fiddlesticks", "poppy", "khazix", "shyvana", "viego", "udyr", "shaco", "graves", "hecarim", "warwick", "ekko", "jax", "nocturne", "diana", "jarvaniv", "amumu", "kayn", "masteryi", "vi", "rammus", "nunu", "volibear", "gwen", "zac", "lillia", "trundle"],
+			"goodwith": ["trundle", "fizz", "drmundo", "garen", "vayne", "quinn", "urgot", "nasus", "katarina", "yasuo", "fiora", "veigar", "irelia", "kayle", "diana", "talon", "yorick", "yone", "ekko", "ahri", "irelia", "lux", "yone", "mordekaiser", "sion", "zed", "yasuo", "akshan", "tryndamere", "riven", "anivia", "viktor", "malphite", "malzahar", "annie", "xerath", "shen", "kassadin", "teemo", "camille", "cassiopeia", "tahmkench", "jax", "akali", "vladimir", "graves", "sylas", "ornn", "chogath", "volibear", "sett", "akali", "lissandra", "darius", "vex", "gnar", "qiyana", "jayce", "gwen", "orianna", "aatrox", "illaoi", "gangplank", "syndra", "renekton", "corki", "zoe", "leblanc", "twistedfate"]
+		},
+		"senna": {
+			"goodvs": ["galio", "thresh", "braum", "rakan", "malphite", "bard", "vex", "karma", "yuumi", "lulu", "shaco", "pantheon", "alistar", "seraphine", "maokai", "morgana", "rell", "janna", "zilean", "nautilus", "veigar", "nami", "leona", "pyke", "soraka", "swain", "sona", "velkoz", "brand", "lux", "blitzcrank", "xerath", "zyra"],
+			"goodwith": ["veigar", "tahmkench", "ziggs", "yasuo", "jhin", "sivir", "vayne", "missfortune", "tristana", "kogmaw", "zeri", "ashe", "ezreal", "twitch", "jinx", "kaisa", "draven", "xayah", "caitlyn", "lucian", "varus", "samira", "aphelios"]
+		},
+		"seraphine": {
+			"goodvs": ["thresh", "malphite", "vex", "galio", "rakan", "pantheon", "karma", "yuumi", "lulu", "veigar", "braum", "nautilus", "bard", "leona", "alistar", "swain", "pyke", "nami", "shaco", "velkoz", "senna", "rell", "sona", "soraka", "janna", "morgana", "lux", "blitzcrank", "zilean", "zyra", "xerath", "brand", "maokai"],
+			"goodwith": ["veigar", "ziggs", "senna", "yasuo", "vayne", "jhin", "missfortune", "ashe", "zeri", "twitch", "sivir", "jinx", "tristana", "kogmaw", "ezreal", "xayah", "kaisa", "draven", "lucian", "samira", "varus", "caitlyn", "aphelios"]
+		},
+		"sett": {
+			"goodvs": ["sylas", "gwen", "renekton", "yasuo", "yone", "irelia", "fiora", "aatrox", "darius", "gragas", "camille", "pantheon", "jayce", "gangplank", "akali", "gnar", "chogath", "jax", "poppy", "illaoi", "riven", "tryndamere", "shen", "tahmkench", "kennen", "wukong", "volibear", "teemo", "graves", "sion", "warwick", "yorick", "ornn", "kled", "quinn", "mordekaiser", "malphite", "vayne", "urgot", "singed", "garen", "trundle", "nasus", "kayle", "drmundo"],
+			"goodwith": ["trundle", "nunu", "rammus", "masteryi", "warwick", "zac", "lillia", "shyvana", "diana", "volibear", "ekko", "nocturne", "fiddlesticks", "vi", "sejuani", "shaco", "amumu", "elise", "graves", "jax", "khazix", "udyr", "hecarim", "poppy", "viego", "reksai", "evelynn", "kayn", "jarvaniv", "kindred", "xinzhao", "gwen", "nidalee", "zed", "karthus", "talon", "rengar", "olaf", "gragas", "qiyana", "leesin"]
+		},
+		"shaco": {
+			"goodvs": ["gragas", "kindred", "leesin", "olaf", "nidalee", "qiyana", "zed", "elise", "gwen", "rengar", "evelynn", "viego", "jax", "poppy", "reksai", "jarvaniv", "khazix", "talon", "xinzhao", "kayn", "masteryi", "warwick", "ekko", "amumu", "udyr", "hecarim", "karthus", "trundle", "volibear", "fiddlesticks", "rammus", "nocturne", "vi", "lillia", "graves", "diana", "zac", "sejuani", "shyvana", "nunu"],
+			"goodwith": ["drmundo", "yorick", "garen", "nasus", "urgot", "kayle", "veigar", "trundle", "xerath", "diana", "anivia", "chogath", "malzahar", "ahri", "fizz", "viktor", "mordekaiser", "ornn", "sion", "vladimir", "yone", "lux", "kassadin", "akshan", "irelia", "yasuo", "shen", "malphite", "tahmkench", "quinn", "cassiopeia", "teemo", "irelia", "ekko", "annie", "volibear", "jax", "fiora", "yasuo", "illaoi", "vayne", "lissandra", "yone", "sett", "riven", "zed", "tryndamere", "vex", "katarina", "talon", "akali", "camille", "sylas", "darius", "corki", "qiyana", "syndra", "gnar", "orianna", "akali", "jayce", "zoe", "gangplank", "gwen", "renekton", "aatrox", "leblanc", "ryze", "twistedfate"]
+		},
+		"shen": {
+			"goodvs": ["kennen", "gragas", "renekton", "warwick", "akshan", "camille", "akali", "irelia", "malphite", "sylas", "vladimir", "yasuo", "wukong", "aatrox", "jayce", "gnar", "yone", "gwen", "poppy", "kled", "jax", "graves", "tahmkench", "gangplank", "volibear", "fiora", "tryndamere", "ornn", "darius", "yorick", "chogath", "illaoi", "riven", "sion", "trundle", "nasus", "sett", "teemo", "quinn", "vayne", "urgot", "singed", "kayle", "drmundo", "garen", "mordekaiser"],
+			"goodwith": ["masteryi", "nunu", "trundle", "vi", "nocturne", "volibear", "rammus", "zac", "shyvana", "diana", "graves", "warwick", "xinzhao", "kayn", "ekko", "jarvaniv", "udyr", "sejuani", "khazix", "shaco", "hecarim", "lillia", "viego", "gwen", "amumu", "kindred", "zed", "fiddlesticks", "jax", "reksai", "poppy", "elise", "talon", "evelynn", "rengar", "gragas", "qiyana", "karthus", "nidalee", "leesin", "olaf"]
+		},
+		"shyvana": {
+			"goodvs": ["karthus", "leesin", "olaf", "qiyana", "rengar", "nidalee", "talon", "zed", "jarvaniv", "jax", "poppy", "evelynn", "graves", "reksai", "elise", "gwen", "shaco", "kayn", "hecarim", "fiddlesticks", "kindred", "viego", "xinzhao", "ekko", "udyr", "amumu", "nocturne", "vi", "khazix", "lillia", "diana", "trundle", "zac", "volibear", "warwick", "masteryi", "nunu", "rammus", "sejuani"],
+			"goodwith": ["drmundo", "garen", "urgot", "yorick", "nasus", "fizz", "malzahar", "trundle", "diana", "malphite", "akshan", "irelia", "ahri", "shen", "quinn", "veigar", "talon", "yone", "volibear", "vayne", "yasuo", "graves", "zed", "mordekaiser", "anivia", "fiora", "illaoi", "sett", "lissandra", "riven", "viktor", "xerath", "akali", "irelia", "ekko", "teemo", "chogath", "camille", "cassiopeia", "ornn", "tryndamere", "yone", "tahmkench", "lux", "darius", "vex", "sion", "annie", "kayle", "akali", "gnar", "qiyana", "sylas", "katarina", "yasuo", "aatrox", "renekton", "jayce", "kassadin", "syndra", "gwen", "jax", "vladimir", "corki", "orianna", "gangplank", "twistedfate", "leblanc"]
+		},
+		"singed": {
+			"goodvs": ["gragas", "aatrox", "gwen", "warwick", "wukong", "jax", "tryndamere", "tahmkench", "renekton", "yasuo", "kled", "poppy", "akali", "sion", "volibear", "vladimir", "camille", "illaoi", "malphite", "sett", "fiora", "gangplank", "irelia", "kennen", "mordekaiser", "jayce", "gnar", "shen", "ornn", "darius", "trundle", "yone", "riven", "akshan", "chogath", "graves", "garen", "quinn", "nasus", "drmundo", "teemo", "yorick", "urgot", "vayne", "kayle"],
+			"goodwith": ["trundle", "masteryi", "vi", "warwick", "nocturne", "sejuani", "graves", "khazix", "rammus", "volibear", "xinzhao", "shyvana", "kayn", "diana", "zac", "viego", "shaco", "kindred", "nunu", "hecarim", "fiddlesticks", "udyr", "jax", "talon", "poppy", "lillia", "rengar", "amumu", "reksai", "ekko", "jarvaniv", "elise", "gwen", "zed", "olaf", "qiyana", "leesin", "evelynn", "nidalee"]
+		},
+		"sion": {
+			"goodvs": ["renekton", "kennen", "jayce", "akali", "gangplank", "malphite", "vladimir", "poppy", "illaoi", "jax", "teemo", "gragas", "yasuo", "akshan", "gnar", "tahmkench", "tryndamere", "warwick", "sett", "wukong", "aatrox", "volibear", "quinn", "kled", "camille", "graves", "gwen", "fiora", "riven", "darius", "ornn", "shen", "chogath", "urgot", "irelia", "yone", "trundle", "kayle", "nasus", "yorick", "janna", "garen", "mordekaiser", "vayne", "drmundo", "singed"],
+			"goodwith": ["trundle", "masteryi", "nocturne", "rammus", "vi", "warwick", "nunu", "poppy", "sejuani", "shaco", "volibear", "zac", "ekko", "diana", "khazix", "fiddlesticks", "graves", "lillia", "udyr", "jax", "kayn", "viego", "xinzhao", "kindred", "gwen", "rengar", "shyvana", "amumu", "elise", "evelynn", "hecarim", "reksai", "zed", "nidalee", "jarvaniv", "olaf", "talon", "leesin", "qiyana", "karthus", "gragas"]
+		},
+		"sivir": {
+			"goodvs": ["aphelios", "varus", "kalista", "caitlyn", "ezreal", "lucian", "xayah", "ashe", "kogmaw", "kaisa", "samira", "senna", "jinx", "draven", "tristana", "yasuo", "zeri", "missfortune", "jhin", "ziggs", "vayne", "veigar", "twitch"],
+			"goodwith": ["shaco", "blitzcrank", "sona", "maokai", "zyra", "brand", "senna", "nautilus", "janna", "xerath", "morgana", "leona", "yuumi", "rakan", "zilean", "velkoz", "lux", "alistar", "braum", "pyke", "nami", "soraka", "pantheon", "veigar", "malphite", "swain", "karma", "bard", "thresh", "lulu", "galio", "seraphine", "vex"]
+		},
+		"skarner": {
+			"goodvs": ["gragas", "karthus", "evelynn", "gwen", "talon", "olaf", "leesin", "qiyana", "reksai", "udyr", "graves", "zed", "rengar", "poppy", "nidalee", "nocturne", "hecarim", "elise", "jax", "xinzhao", "kindred", "volibear", "fiddlesticks", "jarvaniv", "sejuani", "ekko", "khazix", "kayn", "shaco", "vi", "shyvana", "lillia", "diana", "masteryi", "amumu", "viego", "warwick", "nunu", "zac", "trundle", "rammus"],
+			"goodwith": ["anivia", "urgot", "garen", "veigar", "yorick", "drmundo", "cassiopeia", "fizz", "sion", "mordekaiser", "quinn", "nasus", "lux", "ekko", "trundle", "volibear", "ahri", "viktor", "malzahar", "talon", "tryndamere", "yone", "akshan", "teemo", "graves", "annie", "diana", "ornn", "irelia", "zed", "yasuo", "malphite", "chogath", "yone", "jayce", "darius", "irelia", "vex", "fiora", "illaoi", "xerath", "katarina", "qiyana", "syndra", "kayle", "sett", "akali", "vladimir", "jax", "gangplank", "corki", "yasuo", "akali", "kassadin", "lissandra", "orianna", "tahmkench", "camille", "sylas", "aatrox", "gwen", "riven", "vayne", "zoe", "shen", "renekton", "gnar", "leblanc", "twistedfate", "ryze"]
+		},
+		"sona": {
+			"goodvs": ["vex", "shaco", "karma", "pantheon", "rakan", "malphite", "thresh", "bard", "maokai", "lulu", "galio", "velkoz", "yuumi", "morgana", "pyke", "veigar", "braum", "seraphine", "xerath", "zilean", "alistar", "nautilus", "rell", "soraka", "nami", "brand", "swain", "lux", "senna", "janna", "leona", "zyra", "blitzcrank"],
+			"goodwith": ["veigar", "ziggs", "zeri", "seraphine", "sivir", "vayne", "missfortune", "lucian", "jhin", "senna", "tristana", "twitch", "jinx", "varus", "kogmaw", "ashe", "ezreal", "kaisa", "xayah", "draven", "caitlyn", "aphelios", "samira"]
+		},
+		"soraka": {
+			"goodvs": ["vex", "pantheon", "thresh", "malphite", "taric", "galio", "karma", "rakan", "braum", "pyke", "veigar", "bard", "seraphine", "shaco", "rell", "leona", "lulu", "zilean", "nautilus", "alistar", "yuumi", "velkoz", "morgana", "swain", "lux", "maokai", "nami", "senna", "xerath", "brand", "janna", "zyra", "blitzcrank", "sona"],
+			"goodwith": ["veigar", "yasuo", "vayne", "zeri", "ziggs", "twitch", "tristana", "ashe", "jinx", "jhin", "kogmaw", "draven", "xayah", "ezreal", "missfortune", "senna", "sivir", "lucian", "varus", "kaisa", "aphelios", "caitlyn", "samira"]
+		},
+		"swain": {
+			"goodvs": ["malphite", "thresh", "rell", "rakan", "vex", "nautilus", "alistar", "veigar", "pyke", "galio", "pantheon", "braum", "leona", "bard", "maokai", "yuumi", "seraphine", "senna", "karma", "blitzcrank", "lulu", "shaco", "morgana", "lux", "nami", "zyra", "zilean", "soraka", "sona", "janna", "velkoz", "brand", "xerath"],
+			"goodwith": ["yasuo", "jhin", "veigar", "vayne", "tristana", "missfortune", "senna", "ashe", "draven", "ziggs", "jinx", "twitch", "kaisa", "xayah", "kalista", "sivir", "zeri", "samira", "varus", "ezreal", "caitlyn", "lucian", "aphelios"]
+		},
+		"sylas": {
+			"goodvs": ["malphite", "twistedfate", "ryze", "corki", "qiyana", "irelia", "lissandra", "zed", "syndra", "zoe", "ekko", "leblanc", "neeko", "orianna", "zeri", "vladimir", "fizz", "xerath", "viktor", "katarina", "jayce", "akali", "talon", "pantheon", "diana", "annie", "yone", "kassadin", "vex", "yasuo", "galio", "ahri", "anivia", "lux", "akshan", "cassiopeia", "velkoz", "veigar", "malzahar", "brand"],
+			"goodwith": ["nunu", "sejuani", "trundle", "zac", "masteryi", "graves", "rammus", "fiddlesticks", "shyvana", "vi", "lillia", "diana", "nocturne", "ekko", "shaco", "reksai", "kindred", "volibear", "khazix", "amumu", "warwick", "poppy", "hecarim", "elise", "kayn", "xinzhao", "udyr", "jarvaniv", "zed", "viego", "gwen", "jax", "talon", "nidalee", "evelynn", "leesin", "qiyana", "olaf", "rengar"]
+		},
+		"syndra": {
+			"goodvs": ["ryze", "azir", "zeri", "neeko", "twistedfate", "corki", "orianna", "leblanc", "jayce", "sylas", "zoe", "vladimir", "yone", "vex", "talon", "cassiopeia", "zed", "lissandra", "akshan", "viktor", "qiyana", "yasuo", "akali", "malzahar", "galio", "annie", "ahri", "velkoz", "lux", "ekko", "katarina", "anivia", "brand", "kassadin", "diana", "veigar", "irelia", "xerath", "fizz"],
+			"goodwith": ["nunu", "trundle", "masteryi", "khazix", "nocturne", "warwick", "vi", "shaco", "shyvana", "zac", "rammus", "volibear", "graves", "diana", "udyr", "poppy", "viego", "sejuani", "hecarim", "jax", "xinzhao", "kayn", "ekko", "kindred", "elise", "talon", "amumu", "reksai", "jarvaniv", "zed", "lillia", "rengar", "gwen", "fiddlesticks", "qiyana", "nidalee", "leesin", "evelynn", "olaf"]
+		},
+		"tahmkench": {
+			"goodvs": ["akshan", "jayce", "vladimir", "poppy", "renekton", "tryndamere", "gnar", "malphite", "gangplank", "gragas", "jax", "graves", "kennen", "aatrox", "irelia", "yasuo", "quinn", "wukong", "camille", "warwick", "sett", "teemo", "darius", "fiora", "akali", "trundle", "kayle", "riven", "sylas", "nasus", "gwen", "vayne", "kled", "volibear", "illaoi", "chogath", "yone", "garen", "sion", "ornn", "shen", "urgot", "mordekaiser", "drmundo", "singed", "yorick"],
+			"goodwith": ["trundle", "masteryi", "graves", "nunu", "nocturne", "zac", "elise", "sejuani", "diana", "kindred", "shaco", "vi", "volibear", "warwick", "lillia", "kayn", "ekko", "fiddlesticks", "xinzhao", "rammus", "shyvana", "khazix", "poppy", "viego", "gwen", "jax", "hecarim", "amumu", "jarvaniv", "udyr", "reksai", "rengar", "karthus", "talon", "zed", "qiyana", "evelynn", "nidalee", "leesin", "gragas", "olaf"]
+		},
+		"taliyah": {
+			"goodvs": ["karthus", "nidalee", "reksai", "leesin", "gwen", "elise", "graves", "qiyana", "lillia", "jarvaniv", "jax", "kindred", "zed", "xinzhao", "amumu", "viego", "shaco", "talon", "volibear", "evelynn", "udyr", "nunu", "poppy", "fiddlesticks", "hecarim", "kayn", "khazix", "rammus", "sejuani", "zac", "ekko", "warwick", "diana", "trundle", "vi", "nocturne", "rengar", "shyvana", "masteryi"],
+			"goodwith": ["talon", "pantheon", "renekton", "akshan", "kassadin", "qiyana", "irelia", "garen", "poppy", "fiora", "shen", "kayle", "drmundo", "quinn", "urgot", "graves", "yorick", "camille", "sylas", "darius", "ahri", "nasus", "riven", "jayce", "zed", "yasuo", "yasuo", "ekko", "yone", "malphite", "irelia", "tryndamere", "jax", "sion", "ornn", "fizz", "akali", "renekton", "vex", "vayne", "leblanc", "veigar", "viktor", "teemo", "sett", "tahmkench", "malzahar", "volibear", "vladimir", "mordekaiser", "katarina", "yone", "aatrox", "anivia", "gangplank", "gwen", "akali", "trundle", "jayce", "chogath", "xerath", "lissandra", "syndra", "lux", "illaoi", "gnar", "twistedfate", "corki"]
+		},
+		"talon": {
+			"goodvs": ["twistedfate", "corki", "ryze", "galio", "kassadin", "syndra", "zoe", "sylas", "qiyana", "leblanc", "orianna", "akali", "xerath", "viktor", "malzahar", "jayce", "cassiopeia", "ekko", "katarina", "zed", "neeko", "vladimir", "pantheon", "akshan", "zeri", "lissandra", "yasuo", "vex", "ahri", "annie", "yone", "fizz", "anivia", "brand", "irelia", "malphite", "lux", "veigar", "diana"],
+			"goodwith": ["fiddlesticks", "sejuani", "zac", "elise", "nunu", "taliyah", "shyvana", "ekko", "rammus", "trundle", "karthus", "diana", "lillia", "poppy", "gwen", "evelynn", "nidalee", "warwick", "graves", "shaco", "hecarim", "kindred", "nocturne", "masteryi", "udyr", "amumu", "gragas", "vi", "xinzhao", "jarvaniv", "reksai", "viego", "volibear", "kayn", "jax", "khazix", "leesin", "zed", "rengar"]
+		},
+		"taric": {
+			"goodvs": ["pantheon", "thresh", "vex", "malphite", "nautilus", "galio", "rakan", "braum", "yuumi", "leona", "maokai", "rell", "seraphine", "bard", "pyke", "blitzcrank", "zilean", "shaco", "lux", "karma", "xerath", "lulu", "alistar", "morgana", "nami", "zyra", "swain", "senna", "velkoz", "sona", "veigar", "brand", "soraka", "janna"],
+			"goodwith": ["veigar", "yasuo", "kalista", "twitch", "zeri", "vayne", "kindred", "kogmaw", "ziggs", "missfortune", "sivir", "ashe", "samira", "senna", "tristana", "jhin", "pyke", "varus", "lucian", "jinx", "draven", "xayah", "ezreal", "kaisa", "aphelios", "caitlyn"]
+		},
+		"teemo": {
+			"goodvs": ["vayne", "renekton", "gwen", "camille", "illaoi", "darius", "tryndamere", "gangplank", "jax", "trundle", "kennen", "volibear", "aatrox", "wukong", "rumble", "gnar", "singed", "gragas", "quinn", "ryze", "fiora", "kled", "graves", "jayce", "sett", "akshan", "riven", "akali", "heimerdinger", "garen", "yone", "irelia", "vladimir", "pantheon", "kayle", "shen", "tahmkench", "mordekaiser", "nasus", "malphite", "viktor", "yasuo", "ornn", "drmundo", "chogath", "urgot", "sion", "yorick", "cassiopeia"],
+			"goodwith": ["masteryi", "trundle", "vi", "rammus", "warwick", "nocturne", "volibear", "nunu", "poppy", "zac", "hecarim", "graves", "udyr", "kayn", "xinzhao", "sejuani", "jax", "viego", "khazix", "diana", "shaco", "shyvana", "ekko", "amumu", "jarvaniv", "kindred", "lillia", "zed", "reksai", "rengar", "talon", "fiddlesticks", "leesin", "olaf", "elise", "gwen", "evelynn", "qiyana", "nidalee"]
+		},
+		"thresh": {
+			"goodvs": ["yuumi", "pantheon", "karma", "vex", "galio", "bard", "nautilus", "pyke", "seraphine", "lulu", "veigar", "rakan", "nami", "braum", "leona", "lux", "alistar", "xerath", "maokai", "janna", "senna", "rell", "velkoz", "sona", "zilean", "morgana", "soraka", "shaco", "taric", "blitzcrank", "swain", "brand", "zyra"],
+			"goodwith": ["ziggs", "vayne", "sivir", "yasuo", "missfortune", "jinx", "zeri", "twitch", "tristana", "senna", "draven", "kaisa", "kalista", "jhin", "xayah", "samira", "ashe", "ezreal", "lucian", "aphelios", "varus", "caitlyn"]
+		},
+		"tristana": {
+			"goodvs": ["aphelios", "kalista", "varus", "caitlyn", "lucian", "ashe", "ezreal", "draven", "senna", "kaisa", "samira", "xayah", "jinx", "jhin", "zeri", "twitch", "vayne", "missfortune", "sivir", "kogmaw", "ziggs", "yasuo", "veigar"],
+			"goodwith": ["blitzcrank", "brand", "sona", "swain", "zyra", "soraka", "shaco", "lux", "xerath", "maokai", "rell", "janna", "braum", "leona", "yuumi", "senna", "nami", "morgana", "zilean", "nautilus", "pyke", "veigar", "alistar", "velkoz", "taric", "lulu", "pantheon", "rakan", "galio", "seraphine", "bard", "malphite", "karma", "thresh", "vex"]
+		},
+		"trundle": {
+			"goodvs": ["olaf", "qiyana", "gragas", "leesin", "rengar", "reksai", "karthus", "talon", "xinzhao", "poppy", "zed", "evelynn", "udyr", "nidalee", "gwen", "jax", "sejuani", "rammus", "volibear", "amumu", "kayn", "jarvaniv", "hecarim", "viego", "warwick", "diana", "graves", "kindred", "elise", "vi", "khazix", "fiddlesticks", "nocturne", "masteryi", "shyvana", "ekko", "nunu", "shaco", "zac", "lillia"],
+			"goodwith": ["veigar", "drmundo", "urgot", "xerath", "fizz", "garen", "mordekaiser", "yorick", "malphite", "teemo", "kayle", "diana", "annie", "lux", "chogath", "sion", "nasus", "quinn", "anivia", "shen", "ahri", "malzahar", "ornn", "tahmkench", "volibear", "cassiopeia", "viktor", "katarina", "sett", "akali", "ekko", "vladimir", "yasuo", "yone", "irelia", "yone", "lissandra", "vex", "akali", "akshan", "zed", "tryndamere", "vayne", "talon", "kassadin", "fiora", "irelia", "yasuo", "riven", "jax", "illaoi", "sylas", "gnar", "camille", "darius", "qiyana", "syndra", "gangplank", "zoe", "leblanc", "orianna", "jayce", "corki", "gwen", "aatrox", "renekton", "ryze", "twistedfate"]
+		},
+		"tryndamere": {
+			"goodvs": ["gwen", "irelia", "illaoi", "gangplank", "sylas", "renekton", "graves", "yasuo", "aatrox", "mordekaiser", "riven", "akshan", "kennen", "jayce", "sett", "gnar", "vladimir", "yone", "fiora", "kayle", "wukong", "yorick", "jax", "camille", "gragas", "darius", "shen", "volibear", "sion", "trundle", "chogath", "garen", "nasus", "akali", "ornn", "drmundo", "vayne", "quinn", "warwick", "poppy", "urgot", "kled", "tahmkench", "teemo", "singed", "malphite"],
+			"goodwith": ["rammus", "nunu", "sejuani", "zac", "trundle", "volibear", "fiddlesticks", "lillia", "amumu", "udyr", "shyvana", "diana", "warwick", "masteryi", "vi", "ekko", "gwen", "shaco", "nocturne", "elise", "poppy", "hecarim", "khazix", "jax", "xinzhao", "evelynn", "viego", "graves", "jarvaniv", "reksai", "nidalee", "kayn", "kindred", "gragas", "karthus", "talon", "qiyana", "zed", "rengar", "leesin", "olaf"]
+		},
+		"twistedfate": {
+			"goodvs": ["azir", "ryze", "leblanc", "corki", "syndra", "akali", "qiyana", "orianna", "jayce", "velkoz", "vladimir", "zoe", "vex", "akshan", "lissandra", "zeri", "zed", "neeko", "cassiopeia", "pantheon", "sylas", "yone", "galio", "ekko", "katarina", "xerath", "talon", "viktor", "lux", "malzahar", "irelia", "anivia", "ahri", "kassadin", "fizz", "annie", "veigar", "yasuo", "diana", "brand"],
+			"goodwith": ["graves", "poppy", "shyvana", "masteryi", "trundle", "nunu", "diana", "talon", "elise", "ekko", "zac", "khazix", "rammus", "nocturne", "warwick", "vi", "kindred", "lillia", "nidalee", "hecarim", "viego", "sejuani", "gwen", "volibear", "xinzhao", "reksai", "shaco", "udyr", "fiddlesticks", "jarvaniv", "qiyana", "kayn", "evelynn", "rengar", "zed", "amumu", "jax", "leesin", "karthus", "olaf"]
+		},
+		"twitch": {
+			"goodvs": ["aphelios", "kalista", "varus", "caitlyn", "xayah", "ezreal", "jinx", "ashe", "sivir", "samira", "lucian", "kaisa", "zeri", "kogmaw", "draven", "jhin", "senna", "tristana", "missfortune", "vayne", "yasuo", "ziggs", "veigar"],
+			"goodwith": ["nami", "soraka", "taric", "sona", "janna", "leona", "lulu", "maokai", "blitzcrank", "braum", "zyra", "zilean", "brand", "xerath", "yuumi", "rell", "alistar", "rakan", "shaco", "swain", "velkoz", "morgana", "senna", "lux", "nautilus", "veigar", "pyke", "galio", "pantheon", "seraphine", "vex", "karma", "thresh", "bard"]
+		},
+		"udyr": {
+			"goodvs": ["rengar", "nidalee", "gragas", "qiyana", "talon", "karthus", "zed", "olaf", "gwen", "leesin", "elise", "evelynn", "reksai", "ekko", "poppy", "viego", "graves", "hecarim", "xinzhao", "masteryi", "fiddlesticks", "kindred", "diana", "jax", "shaco", "jarvaniv", "khazix", "shyvana", "nocturne", "vi", "kayn", "amumu", "lillia", "warwick", "sejuani", "zac", "rammus", "volibear", "nunu", "trundle"],
+			"goodwith": ["veigar", "drmundo", "fizz", "kayle", "lux", "quinn", "garen", "urgot", "trundle", "shen", "teemo", "xerath", "yorick", "cassiopeia", "viktor", "ahri", "sion", "nasus", "anivia", "malphite", "diana", "mordekaiser", "jayce", "tryndamere", "chogath", "akshan", "malzahar", "ekko", "ornn", "akali", "annie", "yone", "yone", "vladimir", "yasuo", "irelia", "orianna", "vayne", "yasuo", "katarina", "irelia", "kassadin", "fiora", "camille", "riven", "gnar", "tahmkench", "vex", "gangplank", "sett", "darius", "illaoi", "zed", "talon", "volibear", "corki", "akali", "jax", "syndra", "lissandra", "sylas", "zoe", "aatrox", "qiyana", "leblanc", "gwen", "renekton", "twistedfate", "ryze"]
+		},
+		"urgot": {
+			"goodvs": ["akali", "renekton", "gangplank", "kennen", "riven", "aatrox", "yone", "jayce", "jax", "akshan", "gnar", "irelia", "gragas", "poppy", "darius", "gwen", "fiora", "camille", "singed", "tryndamere", "yasuo", "quinn", "graves", "tahmkench", "sett", "teemo", "illaoi", "volibear", "chogath", "wukong", "kled", "shen", "malphite", "yorick", "garen", "warwick", "sion", "ornn", "vayne", "nasus", "kayle", "mordekaiser", "trundle", "drmundo"],
+			"goodwith": ["rammus", "zac", "nunu", "trundle", "masteryi", "volibear", "amumu", "shyvana", "nocturne", "diana", "warwick", "lillia", "ekko", "shaco", "fiddlesticks", "sejuani", "vi", "hecarim", "elise", "khazix", "poppy", "viego", "xinzhao", "evelynn", "udyr", "kayn", "graves", "jax", "kindred", "jarvaniv", "reksai", "gwen", "karthus", "zed", "gragas", "rengar", "nidalee", "talon", "olaf", "leesin", "qiyana"]
+		},
+		"varus": {
+			"goodvs": ["aphelios", "kalista", "caitlyn", "xayah", "lucian", "samira", "jinx", "senna", "ezreal", "ashe", "draven", "kaisa", "zeri", "jhin", "tristana", "twitch", "sivir", "kogmaw", "vayne", "missfortune", "yasuo", "ziggs", "veigar"],
+			"goodwith": ["sona", "zilean", "shaco", "zyra", "soraka", "brand", "swain", "maokai", "blitzcrank", "xerath", "janna", "nami", "galio", "lux", "veigar", "bard", "morgana", "leona", "senna", "alistar", "velkoz", "braum", "nautilus", "lulu", "pyke", "rakan", "pantheon", "rell", "karma", "seraphine", "malphite", "thresh", "yuumi", "vex"]
+		},
+		"vayne": {
+			"goodvs": ["kalista", "varus", "aphelios", "ezreal", "caitlyn", "samira", "kaisa", "xayah", "yasuo", "lucian", "ashe", "ziggs", "jhin", "draven", "sivir", "jinx", "zeri", "twitch", "senna", "kogmaw", "tristana", "missfortune", "veigar"],
+			"goodwith": ["blitzcrank", "soraka", "zyra", "janna", "zilean", "sona", "brand", "maokai", "braum", "swain", "lulu", "shaco", "xerath", "nami", "taric", "leona", "rell", "alistar", "lux", "senna", "morgana", "velkoz", "bard", "nautilus", "pyke", "galio", "yuumi", "rakan", "veigar", "seraphine", "karma", "thresh", "pantheon", "vex"]
+		},
+		"veigar": {
+			"goodvs": ["ryze", "twistedfate", "vex", "leblanc", "zeri", "syndra", "sylas", "akali", "corki", "zoe", "orianna", "galio", "jayce", "irelia", "neeko", "talon", "lissandra", "akshan", "heimerdinger", "yone", "qiyana", "yasuo", "annie", "cassiopeia", "vladimir", "ekko", "diana", "ahri", "viktor", "kassadin", "zed", "lux", "brand", "malzahar", "ziggs", "anivia", "fizz", "velkoz", "katarina", "xerath"],
+			"goodwith": ["trundle", "masteryi", "rammus", "vi", "nunu", "nocturne", "volibear", "warwick", "shaco", "zac", "poppy", "sejuani", "khazix", "amumu", "viego", "xinzhao", "hecarim", "jax", "udyr", "kayn", "ekko", "shyvana", "graves", "diana", "reksai", "lillia", "jarvaniv", "kindred", "zed", "talon", "fiddlesticks", "rengar", "evelynn", "gwen", "olaf", "elise", "leesin", "qiyana", "nidalee"]
+		},
+		"velkoz": {
+			"goodvs": ["thresh", "braum", "veigar", "bard", "alistar", "seraphine", "vex", "karma", "malphite", "lulu", "swain", "senna", "galio", "rell", "morgana", "leona", "pantheon", "nautilus", "lux", "rakan", "maokai", "brand", "yuumi", "nami", "janna", "pyke", "soraka", "zyra", "zilean", "blitzcrank", "shaco", "xerath", "sona"],
+			"goodwith": ["veigar", "jhin", "ziggs", "yasuo", "missfortune", "sivir", "vayne", "draven", "twitch", "tristana", "ashe", "senna", "jinx", "ezreal", "kaisa", "kogmaw", "zeri", "caitlyn", "xayah", "varus", "aphelios", "lucian", "samira"]
+		},
+		"vex": {
+			"goodvs": ["leblanc", "azir", "corki", "ryze", "qiyana", "twistedfate", "sylas", "jayce", "akali", "yone", "zoe", "talon", "syndra", "katarina", "irelia", "yasuo", "orianna", "akshan", "zed", "pantheon", "neeko", "kassadin", "lissandra", "galio", "ekko", "zeri", "ahri", "diana", "lux", "vladimir", "xerath", "brand", "malzahar", "viktor", "cassiopeia", "fizz", "velkoz", "annie", "anivia", "veigar"],
+			"goodwith": ["masteryi", "trundle", "graves", "volibear", "poppy", "nunu", "warwick", "nocturne", "vi", "rammus", "khazix", "zac", "shyvana", "kindred", "viego", "gwen", "diana", "shaco", "xinzhao", "sejuani", "hecarim", "elise", "ekko", "jarvaniv", "kayn", "jax", "reksai", "udyr", "talon", "lillia", "amumu", "zed", "fiddlesticks", "leesin", "evelynn", "nidalee", "rengar", "qiyana", "olaf"]
+		},
+		"vi": {
+			"goodvs": ["qiyana", "leesin", "karthus", "nidalee", "evelynn", "rengar", "olaf", "talon", "reksai", "zed", "gragas", "gwen", "kindred", "xinzhao", "kayn", "elise", "khazix", "lillia", "hecarim", "jarvaniv", "udyr", "graves", "viego", "ekko", "shaco", "masteryi", "jax", "poppy", "fiddlesticks", "diana", "amumu", "sejuani", "warwick", "shyvana", "zac", "nunu", "volibear", "nocturne", "trundle", "rammus"],
+			"goodwith": ["drmundo", "veigar", "garen", "kayle", "nasus", "urgot", "chogath", "diana", "teemo", "malzahar", "fizz", "ahri", "mordekaiser", "yorick", "anivia", "shen", "ornn", "sion", "lux", "viktor", "yasuo", "lissandra", "malphite", "xerath", "annie", "cassiopeia", "trundle", "ekko", "vladimir", "kassadin", "yasuo", "quinn", "katarina", "vayne", "fiora", "tahmkench", "yone", "vex", "volibear", "akali", "yone", "akshan", "irelia", "sett", "akali", "tryndamere", "riven", "darius", "irelia", "gnar", "sylas", "camille", "jax", "zed", "jayce", "orianna", "illaoi", "gwen", "syndra", "gangplank", "corki", "leblanc", "zoe", "talon", "qiyana", "aatrox", "renekton", "twistedfate"]
+		},
+		"viego": {
+			"goodvs": ["olaf", "qiyana", "leesin", "rengar", "talon", "gragas", "karthus", "zed", "gwen", "jarvaniv", "jax", "xinzhao", "kindred", "nidalee", "hecarim", "kayn", "poppy", "graves", "diana", "evelynn", "udyr", "reksai", "khazix", "shyvana", "vi", "lillia", "fiddlesticks", "volibear", "masteryi", "ekko", "sejuani", "amumu", "elise", "nocturne", "shaco", "trundle", "warwick", "nunu", "zac", "rammus"],
+			"goodwith": ["drmundo", "veigar", "anivia", "garen", "yorick", "chogath", "malzahar", "urgot", "ahri", "kayle", "malphite", "nasus", "lux", "teemo", "ornn", "fizz", "shen", "diana", "xerath", "sion", "annie", "quinn", "mordekaiser", "trundle", "cassiopeia", "lissandra", "vex", "viktor", "tahmkench", "ekko", "volibear", "vladimir", "katarina", "irelia", "akali", "akali", "sett", "kassadin", "fiora", "irelia", "riven", "tryndamere", "yone", "gragas", "yone", "graves", "darius", "akshan", "vayne", "orianna", "yasuo", "zoe", "syndra", "zed", "camille", "gnar", "illaoi", "jax", "yasuo", "talon", "sylas", "qiyana", "jayce", "gangplank", "gwen", "aatrox", "corki", "leblanc", "renekton", "twistedfate", "ryze"]
+		},
+		"viktor": {
+			"goodvs": ["ryze", "azir", "twistedfate", "lissandra", "corki", "jayce", "orianna", "vex", "leblanc", "syndra", "zeri", "malzahar", "galio", "neeko", "zoe", "annie", "qiyana", "yasuo", "cassiopeia", "katarina", "sylas", "brand", "akshan", "zed", "vladimir", "yone", "irelia", "lux", "diana", "anivia", "kassadin", "akali", "talon", "ekko", "fizz", "veigar", "velkoz", "ahri", "xerath"],
+			"goodwith": ["warwick", "rammus", "masteryi", "nunu", "nocturne", "vi", "trundle", "volibear", "shaco", "khazix", "zac", "sejuani", "amumu", "poppy", "reksai", "udyr", "shyvana", "hecarim", "elise", "diana", "xinzhao", "graves", "kayn", "kindred", "rengar", "viego", "jarvaniv", "ekko", "lillia", "talon", "fiddlesticks", "zed", "jax", "evelynn", "leesin", "qiyana", "nidalee", "gwen", "olaf"]
+		},
+		"vladimir": {
+			"goodvs": ["ryze", "corki", "katarina", "twistedfate", "leblanc", "yasuo", "vex", "irelia", "syndra", "yone", "talon", "jayce", "qiyana", "akali", "sylas", "neeko", "orianna", "fizz", "lissandra", "zed", "akshan", "diana", "ekko", "viktor", "kassadin", "lux", "zoe", "annie", "xerath", "zeri", "ahri", "veigar", "velkoz", "cassiopeia", "galio", "brand", "anivia", "malzahar"],
+			"goodwith": ["zac", "nunu", "trundle", "nocturne", "rammus", "shaco", "masteryi", "vi", "volibear", "hecarim", "sejuani", "warwick", "khazix", "amumu", "fiddlesticks", "reksai", "kayn", "poppy", "diana", "udyr", "zed", "elise", "ekko", "graves", "viego", "xinzhao", "lillia", "jax", "jarvaniv", "qiyana", "olaf", "kindred", "shyvana", "talon", "evelynn", "rengar", "gwen", "nidalee", "leesin"]
+		},
+		"volibear": {
+			"goodvs": ["rengar", "karthus", "leesin", "olaf", "talon", "reksai", "nidalee", "gragas", "qiyana", "evelynn", "elise", "udyr", "xinzhao", "khazix", "poppy", "zed", "viego", "jarvaniv", "hecarim", "kindred", "fiddlesticks", "jax", "gwen", "amumu", "warwick", "vi", "ekko", "sejuani", "shyvana", "nocturne", "diana", "kayn", "graves", "shaco", "masteryi", "rammus", "zac", "nunu", "lillia", "trundle"],
+			"goodwith": ["drmundo", "urgot", "yorick", "veigar", "fizz", "quinn", "xerath", "anivia", "nasus", "diana", "garen", "malphite", "kayle", "lux", "shen", "ahri", "teemo", "malzahar", "viktor", "yone", "ornn", "mordekaiser", "trundle", "annie", "sion", "yone", "irelia", "lissandra", "vladimir", "chogath", "tryndamere", "cassiopeia", "akshan", "ekko", "vex", "vayne", "irelia", "yasuo", "yasuo", "tahmkench", "sett", "akali", "akali", "qiyana", "katarina", "kassadin", "fiora", "jax", "zed", "riven", "camille", "darius", "jayce", "gnar", "sylas", "aatrox", "syndra", "corki", "illaoi", "zoe", "gangplank", "orianna", "gwen", "leblanc", "talon", "renekton", "twistedfate"]
+		},
+		"warwick": {
+			"goodvs": ["nidalee", "leesin", "rengar", "qiyana", "reksai", "zed", "talon", "evelynn", "gwen", "xinzhao", "viego", "olaf", "elise", "poppy", "khazix", "kindred", "jarvaniv", "kayn", "diana", "udyr", "hecarim", "karthus", "fiddlesticks", "graves", "jax", "shyvana", "masteryi", "ekko", "vi", "nocturne", "shaco", "amumu", "volibear", "sejuani", "rammus", "nunu", "zac", "lillia", "trundle"],
+			"goodwith": ["drmundo", "yorick", "kayle", "urgot", "veigar", "garen", "anivia", "viktor", "diana", "ornn", "nasus", "lux", "trundle", "xerath", "malzahar", "teemo", "sion", "ahri", "yone", "malphite", "quinn", "mordekaiser", "yasuo", "chogath", "fizz", "shen", "vayne", "yone", "annie", "sett", "lissandra", "akshan", "vladimir", "vex", "irelia", "tahmkench", "kassadin", "ekko", "cassiopeia", "volibear", "katarina", "irelia", "yasuo", "illaoi", "fiora", "tryndamere", "gangplank", "zed", "orianna", "akali", "jax", "talon", "jayce", "akali", "camille", "qiyana", "corki", "darius", "syndra", "riven", "gnar", "aatrox", "sylas", "zoe", "gwen", "renekton", "leblanc", "twistedfate", "ryze"]
+		},
+		"wukong": {
+			"goodvs": ["aatrox", "darius", "vayne", "jayce", "yasuo", "gnar", "irelia", "gwen", "fiora", "akshan", "graves", "akali", "sett", "gangplank", "yone", "renekton", "tryndamere", "vladimir", "riven", "camille", "gragas", "zeri", "poppy", "volibear", "kennen", "kayle", "kled", "quinn", "tahmkench", "illaoi", "trundle", "sion", "jax", "ornn", "nasus", "urgot", "teemo", "mordekaiser", "yorick", "chogath", "malphite", "shen", "warwick", "drmundo", "singed", "garen"],
+			"goodwith": ["fiddlesticks", "trundle", "nunu", "shyvana", "zac", "rammus", "vi", "lillia", "amumu", "diana", "elise", "masteryi", "warwick", "shaco", "nocturne", "ekko", "hecarim", "volibear", "khazix", "graves", "poppy", "sejuani", "qiyana", "gwen", "jarvaniv", "xinzhao", "jax", "udyr", "reksai", "viego", "kindred", "nidalee", "kayn", "evelynn", "zed", "karthus", "talon", "rengar", "gragas", "leesin", "olaf"]
+		},
+		"xayah": {
+			"goodvs": ["kalista", "aphelios", "samira", "lucian", "kaisa", "caitlyn", "ezreal", "varus", "draven", "ashe", "yasuo", "tristana", "kogmaw", "jinx", "zeri", "twitch", "jhin", "vayne", "sivir", "missfortune", "veigar", "ziggs", "senna"],
+			"goodwith": ["maokai", "blitzcrank", "soraka", "nami", "swain", "sona", "zyra", "janna", "brand", "xerath", "morgana", "zilean", "lux", "senna", "leona", "nautilus", "pyke", "rell", "alistar", "velkoz", "braum", "rakan", "bard", "yuumi", "galio", "lulu", "veigar", "seraphine", "thresh", "karma", "pantheon", "vex"]
+		},
+		"xerath": {
+			"goodvs": ["vex", "veigar", "malphite", "seraphine", "thresh", "swain", "morgana", "lux", "velkoz", "braum", "pantheon", "senna", "brand", "galio", "karma", "lulu", "zilean", "bard", "zyra", "rell", "rakan", "nami", "alistar", "janna", "pyke", "leona", "yuumi", "soraka", "nautilus", "shaco", "maokai", "blitzcrank", "sona"],
+			"goodwith": ["jhin", "ziggs", "vayne", "missfortune", "sivir", "tristana", "ashe", "twitch", "senna", "ezreal", "zeri", "jinx", "kaisa", "draven", "xayah", "caitlyn", "varus", "lucian", "samira", "aphelios"]
+		},
+		"xinzhao": {
+			"goodvs": ["karthus", "leesin", "rengar", "gragas", "zed", "qiyana", "nidalee", "olaf", "talon", "jarvaniv", "kindred", "elise", "evelynn", "reksai", "hecarim", "kayn", "diana", "graves", "udyr", "fiddlesticks", "viego", "poppy", "lillia", "jax", "gwen", "amumu", "shyvana", "khazix", "shaco", "ekko", "nunu", "nocturne", "zac", "masteryi", "vi", "volibear", "warwick", "sejuani", "rammus", "trundle"],
+			"goodwith": ["veigar", "drmundo", "garen", "anivia", "shen", "ahri", "urgot", "kayle", "mordekaiser", "nasus", "yorick", "teemo", "fizz", "malzahar", "diana", "annie", "ornn", "chogath", "lux", "cassiopeia", "malphite", "viktor", "xerath", "sion", "tahmkench", "akali", "kassadin", "vex", "lissandra", "trundle", "quinn", "ekko", "katarina", "vayne", "riven", "vladimir", "volibear", "graves", "irelia", "irelia", "yone", "akshan", "camille", "yasuo", "jax", "yasuo", "tryndamere", "akali", "zoe", "gnar", "fiora", "yone", "sett", "talon", "darius", "gragas", "sylas", "orianna", "zed", "jayce", "leblanc", "syndra", "qiyana", "illaoi", "gwen", "gangplank", "aatrox", "corki", "renekton", "twistedfate", "ryze"]
+		},
+		"yasuo": {
+			"goodvs": ["ryze", "twistedfate", "corki", "akshan", "zoe", "leblanc", "sylas", "orianna", "syndra", "azir", "qiyana", "katarina", "zed", "irelia", "ekko", "kassadin", "talon", "lux", "neeko", "velkoz", "jayce", "xerath", "akali", "galio", "cassiopeia", "brand", "ahri", "yone", "zeri", "diana", "vex", "fizz", "viktor", "pantheon", "vladimir", "anivia", "malphite", "renekton", "veigar", "lissandra", "sett", "annie", "malzahar"],
+			"goodwith": ["zac", "rammus", "nunu", "sejuani", "fiddlesticks", "vi", "diana", "trundle", "warwick", "shyvana", "ekko", "lillia", "amumu", "shaco", "volibear", "nocturne", "masteryi", "hecarim", "udyr", "elise", "evelynn", "poppy", "jarvaniv", "gragas", "jax", "kayn", "xinzhao", "khazix", "kindred", "karthus", "viego", "reksai", "nidalee", "gwen", "graves", "talon", "zed", "leesin", "olaf", "qiyana", "rengar"]
+		},
+		"yone": {
+			"goodvs": ["ryze", "twistedfate", "corki", "zoe", "orianna", "kassadin", "galio", "sylas", "talon", "qiyana", "leblanc", "syndra", "velkoz", "katarina", "ekko", "neeko", "xerath", "yasuo", "jayce", "lissandra", "diana", "zed", "viktor", "akali", "renekton", "fizz", "cassiopeia", "zeri", "irelia", "malzahar", "malphite", "brand", "vladimir", "akshan", "annie", "pantheon", "lux", "vex", "sett", "ahri", "veigar", "anivia"],
+			"goodwith": ["rammus", "nunu", "sejuani", "fiddlesticks", "warwick", "zac", "volibear", "amumu", "trundle", "shyvana", "lillia", "shaco", "ekko", "diana", "elise", "vi", "nocturne", "masteryi", "poppy", "udyr", "evelynn", "jax", "hecarim", "xinzhao", "kayn", "karthus", "viego", "jarvaniv", "khazix", "gwen", "nidalee", "kindred", "graves", "zed", "gragas", "reksai", "talon", "leesin", "rengar", "qiyana", "olaf"]
+		},
+		"yorick": {
+			"goodvs": ["illaoi", "jayce", "kennen", "darius", "gragas", "aatrox", "gangplank", "akali", "gnar", "akshan", "tahmkench", "vayne", "heimerdinger", "renekton", "teemo", "riven", "quinn", "wukong", "camille", "singed", "sett", "malphite", "ornn", "fiora", "volibear", "gwen", "sion", "chogath", "jax", "mordekaiser", "garen", "drmundo", "warwick", "kled", "tryndamere", "nasus", "graves", "yone", "trundle", "yasuo", "shen", "kayle", "urgot", "irelia"],
+			"goodwith": ["nocturne", "rammus", "shaco", "trundle", "volibear", "warwick", "nunu", "masteryi", "zac", "amumu", "shyvana", "diana", "vi", "fiddlesticks", "sejuani", "poppy", "ekko", "lillia", "khazix", "viego", "kayn", "jax", "graves", "elise", "hecarim", "xinzhao", "jarvaniv", "udyr", "kindred", "reksai", "evelynn", "zed", "karthus", "talon", "nidalee", "gwen", "gragas", "leesin", "qiyana", "olaf", "rengar"]
+		},
+		"yuumi": {
+			"goodvs": ["karma", "vex", "seraphine", "velkoz", "xerath", "pantheon", "bard", "malphite", "thresh", "shaco", "morgana", "nami", "pyke", "lulu", "lux", "brand", "galio", "soraka", "swain", "rakan", "maokai", "zilean", "senna", "veigar", "braum", "janna", "sona", "zyra", "alistar", "rell", "nautilus", "leona", "blitzcrank"],
+			"goodwith": ["veigar", "yasuo", "sivir", "twitch", "zeri", "ziggs", "tristana", "vayne", "lucian", "jhin", "xayah", "draven", "missfortune", "kaisa", "kogmaw", "samira", "ezreal", "jinx", "ashe", "caitlyn", "varus", "aphelios"]
+		},
+		"zac": {
+			"goodvs": ["olaf", "leesin", "nidalee", "elise", "gragas", "rengar", "jax", "evelynn", "viego", "talon", "qiyana", "reksai", "udyr", "zed", "amumu", "karthus", "xinzhao", "masteryi", "rammus", "sejuani", "nocturne", "khazix", "fiddlesticks", "warwick", "shaco", "gwen", "poppy", "hecarim", "diana", "jarvaniv", "kindred", "volibear", "ekko", "shyvana", "vi", "graves", "kayn", "trundle", "nunu", "lillia"],
+			"goodwith": ["garen", "urgot", "nasus", "drmundo", "quinn", "yasuo", "trundle", "fizz", "malzahar", "yorick", "vayne", "fiora", "kayle", "akshan", "veigar", "kassadin", "vladimir", "yasuo", "irelia", "ekko", "talon", "shen", "irelia", "ornn", "ahri", "yone", "zed", "diana", "annie", "mordekaiser", "katarina", "riven", "tryndamere", "cassiopeia", "chogath", "teemo", "viktor", "anivia", "qiyana", "sion", "graves", "lux", "tahmkench", "akali", "darius", "sett", "camille", "yone", "malphite", "jax", "volibear", "akali", "vex", "sylas", "jayce", "gangplank", "illaoi", "xerath", "aatrox", "lissandra", "gnar", "gwen", "syndra", "zoe", "leblanc", "renekton", "corki", "orianna", "twistedfate"]
+		},
+		"zed": {
+			"goodvs": ["ryze", "twistedfate", "corki", "zeri", "syndra", "leblanc", "kassadin", "orianna", "jayce", "talon", "zoe", "galio", "neeko", "yone", "vex", "katarina", "lissandra", "annie", "cassiopeia", "vladimir", "viktor", "akshan", "qiyana", "sylas", "xerath", "akali", "veigar", "ahri", "anivia", "brand", "ekko", "yasuo", "lux", "fizz", "malzahar", "pantheon", "diana", "irelia", "malphite"],
+			"goodwith": ["nunu", "rammus", "zac", "fiddlesticks", "sejuani", "shyvana", "trundle", "diana", "lillia", "ekko", "elise", "warwick", "poppy", "shaco", "volibear", "amumu", "karthus", "masteryi", "gwen", "vi", "graves", "evelynn", "udyr", "nidalee", "nocturne", "kindred", "hecarim", "jax", "viego", "xinzhao", "khazix", "kayn", "jarvaniv", "gragas", "reksai", "talon", "olaf", "rengar", "leesin"]
+		},
+		"zeri": {
+			"goodvs": ["aphelios", "yasuo", "samira", "kalista", "kaisa", "varus", "lucian", "xayah", "caitlyn", "draven", "ezreal", "ashe", "senna", "jinx", "jhin", "sivir", "kogmaw", "missfortune", "tristana", "twitch", "vayne", "ziggs", "veigar"],
+			"goodwith": ["sona", "soraka", "blitzcrank", "janna", "lulu", "taric", "alistar", "rell", "nami", "braum", "rakan", "leona", "zyra", "yuumi", "brand", "shaco", "xerath", "lux", "morgana", "zilean", "nautilus", "maokai", "senna", "pyke", "swain", "galio", "karma", "velkoz", "bard", "seraphine", "veigar", "pantheon", "thresh", "vex"]
+		},
+		"ziggs": {
+			"goodvs": ["aphelios", "caitlyn", "kogmaw", "varus", "xayah", "samira", "lucian", "ezreal", "jinx", "missfortune", "ashe", "draven", "kaisa", "twitch", "senna", "kalista", "tristana", "zeri", "sivir", "jhin", "yasuo", "vayne", "veigar"],
+			"goodwith": ["shaco", "maokai", "sona", "blitzcrank", "leona", "alistar", "zyra", "senna", "pyke", "pantheon", "zilean", "nautilus", "soraka", "morgana", "malphite", "janna", "rakan", "bard", "braum", "xerath", "galio", "velkoz", "ashe", "nami", "karma", "lux", "seraphine", "swain", "yuumi", "veigar", "thresh", "brand", "lulu", "vex", "missfortune"]
+		},
+		"zilean": {
+			"goodvs": ["galio", "vex", "thresh", "veigar", "pantheon", "seraphine", "bard", "yuumi", "rakan", "braum", "velkoz", "leona", "pyke", "nautilus", "karma", "morgana", "alistar", "swain", "lux", "lulu", "nami", "blitzcrank", "rell", "senna", "maokai", "brand", "janna", "shaco", "xerath", "zyra", "soraka", "sona"],
+			"goodwith": ["veigar", "ziggs", "vayne", "senna", "twitch", "jhin", "varus", "sivir", "ashe", "missfortune", "zeri", "tristana", "ezreal", "draven", "jinx", "kaisa", "xayah", "kogmaw", "lucian", "caitlyn", "aphelios", "samira"]
+		},
+		"zoe": {
+			"goodvs": ["twistedfate", "azir", "ryze", "corki", "vladimir", "syndra", "orianna", "leblanc", "zeri", "cassiopeia", "sylas", "qiyana", "zed", "lissandra", "pantheon", "neeko", "akali", "galio", "vex", "talon", "jayce", "viktor", "xerath", "akshan", "ahri", "katarina", "yasuo", "anivia", "lux", "yone", "irelia", "brand", "velkoz", "kassadin", "ekko", "annie", "veigar", "fizz", "diana", "malzahar"],
+			"goodwith": ["graves", "trundle", "nunu", "masteryi", "poppy", "rammus", "reksai", "shyvana", "lillia", "hecarim", "zac", "xinzhao", "khazix", "diana", "kindred", "volibear", "ekko", "vi", "nocturne", "viego", "warwick", "shaco", "elise", "gwen", "kayn", "fiddlesticks", "nidalee", "qiyana", "udyr", "sejuani", "olaf", "talon", "amumu", "jarvaniv", "rengar", "leesin", "jax", "evelynn", "zed"]
+		},
+		"zyra": {
+			"goodvs": ["thresh", "veigar", "vex", "rakan", "karma", "braum", "bard", "senna", "pantheon", "malphite", "seraphine", "yuumi", "morgana", "rell", "lulu", "nami", "pyke", "janna", "alistar", "galio", "zilean", "leona", "brand", "maokai", "nautilus", "velkoz", "swain", "lux", "soraka", "sona", "shaco", "blitzcrank", "xerath"],
+			"goodwith": ["veigar", "jhin", "ziggs", "yasuo", "vayne", "missfortune", "senna", "ezreal", "sivir", "tristana", "twitch", "kaisa", "jinx", "kogmaw", "ashe", "zeri", "draven", "xayah", "caitlyn", "varus", "samira", "lucian", "aphelios"]
+		}
+	}
+}
