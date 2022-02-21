@@ -4,7 +4,6 @@ from PIL import Image, ImageTk
 from io import BytesIO
 import requests
 import math
-import time
 
 data = requests.get("https://raw.githubusercontent.com/pedrohpf/Filter-Data-Test/main/db.json").json()
 filters = data["filters"]
