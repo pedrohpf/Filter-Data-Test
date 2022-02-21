@@ -4,6 +4,7 @@ from PIL import Image, ImageTk
 from io import BytesIO
 import requests
 import math
+import time
 
 data = requests.get("https://raw.githubusercontent.com/pedrohpf/Filter-Data-Test/main/db.json").json()
 filters = data["filters"]
@@ -232,8 +233,8 @@ def display(windowSize, champColumns):
 
 	champProfiles = {}
 	for i in range(len(champNames)):
-		profileRequest = requests.get("https://github.com/pedrohpf/Filter-Data-Test/blob/main/champProfiles/" + champNames[i] + ".png")
-		champProfiles[champNames[i]] = ImageTk.PhotoImage(Image.open(BytesIO(profileRequest.content)).resize((40, 40)))
+		image = Image.open("champProfiles3/" + champNames[i] + ".jpg")
+		champProfiles[champNames[i]] = ImageTk.PhotoImage(image)
 
 	levelBars = {}
 	for i in range(len(teamAttributesTypes)):
@@ -269,4 +270,4 @@ def display(windowSize, champColumns):
 
 	root.mainloop()
 
-display("1000x600", 10)
+display("1200x700", 10)
