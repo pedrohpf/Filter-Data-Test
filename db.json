@@ -20,7 +20,7 @@
 			"champProfilesResize": [54, 54],
 			"champProfilesExt": ".png",
 			"champProfilesFolder": "champProfiles/"
-		},
+		}
 	},
 	"filterLevels": ["No Filter", "Medium Filter", "Max Filter"],
 	"filters": {
