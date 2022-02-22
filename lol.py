@@ -6,80 +6,118 @@ import requests
 import math
 import os
 
-data = requests.get("https://raw.githubusercontent.com/pedrohpf/Filter-Data-Test/main/db.json").json()
+gitMainPath = "https://raw.githubusercontent.com/pedrohpf/Filter-Data-Test/main/"
+data = requests.get(gitMainPath + "db.json").json()
+
+filterLevels = data["filterLevels"]
+champColumns = data["champColumns"]
+
 filters = data["filters"]
 teamAttributes = data["teamAttributes"]
 champs = data["champs"]
 synergies = data["synergies"]
-nameFilters = [""]
 
+nameFilters = [""]
 champNames = list(champs.keys())
 filterTypes = list(filters.keys())
 teamAttributesTypes = list(teamAttributes.keys())
-filterLevels = ["No Filter", "Medium Filter", "Max Filter"]
+
+champProfiles = {}
+levelBars = {}
+synergyChampLabels = []
+chosenChampNames = []
+chosenChampLabels = []
+champLabels = {}
 
 champProfilesFolder = "champProfiles/"
 os.makedirs(champProfilesFolder, exist_ok=True)
 for i in range(len(champNames)):
 	path = champProfilesFolder + champNames[i] + ".png"
 	if not os.path.exists(path):
-		champProfile = requests.get("https://raw.githubusercontent.com/pedrohpf/Filter-Data-Test/main/" + path).content
+		champProfile = requests.get(gitMainPath + path).content
 		with open(path, "wb") as handler:
 			handler.write(champProfile)
 
 #####################################################################################################################
 
-def createChamp(root, champName, champProfile):
+def createChamp(root, row, column, champProfile = None, champName = None):
 	champLabel = Label(root, image=champProfile)
-	champLabel.image = champProfile
-	champLabel.name = champName
+	champLabel.grid(row = row, column = column)
+	champLabel.champProfile = champProfile
+	champLabel.champName = champName
 	return champLabel
+
+def showChamp(champLabel, champProfile, champName):
+	champLabel.grid()
+	champLabel.configure(image=champProfile)
+	champLabel.champName = champName
+
+def hideChamp(champLabel, fullClear = True):
+	champLabel.grid_remove()
+	if fullClear:
+		champLabel.configure(image=None)
+		champLabel.champName = None
 
 def placeChamp(champLabel, row, column):
 	champLabel.grid(row = row, column = column)
 
-def hideChamp(champLabel):
-	champLabel.grid_remove()
-
-def updateSynergies(synergyChampLabels, chosenChampNames):
-	for champName in champs:
-		for i in range(len(synergyChampLabels)):
-			hideChamp(synergyChampLabels[i][champName])
+def updateSynergies():
+	for i in range(len(synergyChampLabels)):
+		for j in range(len(synergyChampLabels[i])):
+			hideChamp(synergyChampLabels[i][j])
 
 	if len(chosenChampNames)>0:
 		synergyGoodVs = synergies[chosenChampNames[-1]]["goodvs"][0:5]
 		synergyBadVs = synergies[chosenChampNames[-1]]["goodvs"][:-6:-1]
 		synergyGoodWith = synergies[chosenChampNames[-1]]["goodwith"][0:5]
 
-		placeChamp(synergyChampLabels[0][chosenChampNames[-1]], 0, 1)
+		showChamp(synergyChampLabels[0][0], champLabels[chosenChampNames[-1]].champProfile, champLabels[chosenChampNames[-1]].champName)
 		for i in range(len(synergyGoodVs)):
-			placeChamp(synergyChampLabels[1][synergyGoodVs[i]], i+2, 0)
+			showChamp(synergyChampLabels[1][i], champLabels[synergyGoodVs[i]].champProfile, champLabels[synergyGoodVs[i]].champName)
 		for i in range(len(synergyBadVs)):
-			placeChamp(synergyChampLabels[2][synergyBadVs[i]], i+2, 1)
+			showChamp(synergyChampLabels[2][i], champLabels[synergyBadVs[i]].champProfile, champLabels[synergyBadVs[i]].champName)
 		for i in range(len(synergyGoodWith)):
-			placeChamp(synergyChampLabels[3][synergyGoodWith[i]], i+2, 2)
+			showChamp(synergyChampLabels[3][i], champLabels[synergyGoodWith[i]].champProfile, champLabels[synergyGoodWith[i]].champName)
 
-def clickChamp(event, chosenChampNames, chosenChampLabels, synergyChampLabels, levelBars):
-	if event.widget.name not in chosenChampNames and len(chosenChampNames)<5:
-		placeChamp(chosenChampLabels[event.widget.name], 0, len(chosenChampNames))
-		chosenChampNames.append(event.widget.name)
+def clickChamp(event):
+	clickedChampProfile = event.widget.champProfile
+	clickedChampName = event.widget.champName
+
+	if clickedChampName in chosenChampNames:
+		for i in range(len(chosenChampLabels)):
+			hideChamp(chosenChampLabels[i])
+		chosenChampNames.remove(clickedChampName)
+
+		for i in range(len(chosenChampNames)):
+			showChamp(chosenChampLabels[i], champLabels[chosenChampNames[i]].champProfile, champLabels[chosenChampNames[i]].champName)
 
 		for attribute in levelBars:
-			levelBars[attribute]["value"] += (champs[event.widget.name][attribute]/teamAttributes[attribute])*100
+			levelBars[attribute]["value"] -= (champs[clickedChampName][attribute]/teamAttributes[attribute])*100
 
-		updateSynergies(synergyChampLabels, chosenChampNames)
+		updateSynergies()
+	elif len(chosenChampNames)<5:
+		showChamp(chosenChampLabels[len(chosenChampNames)], clickedChampProfile, clickedChampName)
+		chosenChampNames.append(clickedChampName)
 
-def clickChosenChamp(event, chosenChampNames, chosenChampLabels, synergyChampLabels, levelBars):
-	for champName in chosenChampNames:
-		hideChamp(chosenChampLabels[champName])
-	chosenChampNames.remove(event.widget.name)
+		for attribute in levelBars:
+			levelBars[attribute]["value"] += (champs[clickedChampName][attribute]/teamAttributes[attribute])*100
+
+		updateSynergies()
+
+def clickChosenChamp(event):
+	clickedChampName = event.widget.champName
+
+	for i in range(len(chosenChampLabels)):
+		hideChamp(chosenChampLabels[i])
+	chosenChampNames.remove(clickedChampName)
+
 	for i in range(len(chosenChampNames)):
-		placeChamp(chosenChampLabels[chosenChampNames[i]], 0, i)
+		showChamp(chosenChampLabels[i], champLabels[chosenChampNames[i]].champProfile, champLabels[chosenChampNames[i]].champName)
 
 	for attribute in levelBars:
-		levelBars[attribute]["value"] -= (champs[event.widget.name][attribute]/teamAttributes[attribute])*100
+		levelBars[attribute]["value"] -= (champs[clickedChampName][attribute]/teamAttributes[attribute])*100
 
-	updateSynergies(synergyChampLabels, chosenChampNames)
+	updateSynergies()
 
 #####################################################################################################################
 
@@ -103,15 +141,17 @@ def setFilter(filterKey, filterValue):
 	if filterKey not in filters or filterValue<0 or filterValue>2: return
 	filters[filterKey] = filterValue
 
-def updateFilteredChamps(champLabels, champColumns):
-	for champName in champLabels:
-		hideChamp(champLabels[champName])
+def updateFilteredChamps():
+	for i in range(len(champNames)):
+		placeChamp(champLabels[champNames[i]], int(i/champColumns), i%champColumns)
+		hideChamp(champLabels[champNames[i]], fullClear = False)
 	filteredChamps = getFilteredChamps()
 	for i in range(len(filteredChamps)):
 		placeChamp(champLabels[filteredChamps[i]], int(i/champColumns), i%champColumns)
+		showChamp(champLabels[filteredChamps[i]], champLabels[filteredChamps[i]].champProfile, champLabels[filteredChamps[i]].champName)
 
-def displayLevelBar(root, filterTypes, i):
-	filterTypeLabel = Label(root, text=filterTypes[i])
+def displayLevelBar(root, i):
+	filterTypeLabel = Label(root, text=teamAttributesTypes[i])
 	filterTypeLabel.grid(row = i, column = 1)
 
 	levelBar = Progressbar(root, orient = HORIZONTAL, length = 100, mode = 'determinate')
@@ -119,9 +159,9 @@ def displayLevelBar(root, filterTypes, i):
 
 	return levelBar
 
-def filterNameChange(searchInput, champLabels, champColumns):
+def filterNameChange(searchInput):
 	nameFilters[0] = searchInput.get().replace(" ", "")
-	updateFilteredChamps(champLabels, champColumns)
+	updateFilteredChamps()
 
 def displaySynergies(root):
 	goodVsLabel = Label(root, text="Good Vs")
@@ -131,16 +171,16 @@ def displaySynergies(root):
 	goodWithLabel = Label(root, text="Good With")
 	goodWithLabel.grid(row = 1, column = 2, sticky="nsew")
 
-def displaySearch(root, champLabels, champColumns):
+def displaySearch(root):
 	searchInput = StringVar()
 
 	searchLabel = Label(root, text="Search:")
 	searchLabel.grid(row = 0, column = 0, sticky="nsew")
 	searchBar = Entry(root, textvariable = searchInput)
-	searchBar.bind("<KeyRelease>", lambda event: filterNameChange(searchInput, champLabels, champColumns))
+	searchBar.bind("<KeyRelease>", lambda event: filterNameChange(searchInput))
 	searchBar.grid(row = 0, column = 1, sticky="nsew")
 
-def displayFilter(root, champLabels, champColumns, filterTypes, filterLevels, i):
+def displayFilter(root, i):
 	filterTypeLabel = Label(root, text=filterTypes[i])
 
 	filterLevelDescription = StringVar()
@@ -148,7 +188,7 @@ def displayFilter(root, champLabels, champColumns, filterTypes, filterLevels, i)
 	def filterLevelChange(scaleValue):
 		setFilter(filterTypes[i], int(scaleValue))
 		filterLevelDescription.set(filterLevels[int(scaleValue)])
-		updateFilteredChamps(champLabels, champColumns)
+		updateFilteredChamps()
 	filterLevelChange(0)
 
 	filterLevelScale = Scale(root,  from_ = 0,
@@ -166,7 +206,7 @@ def displayFilter(root, champLabels, champColumns, filterTypes, filterLevels, i)
 	filterLevelLabel.grid(row = i, column = 2)
 
 #High need of cleaning up, but who's gonna do that?
-def display(windowSize, champColumns):
+def display(windowSize):
 	root = Tk()
 	root.title("Champion Filter")
 	root.geometry(windowSize)
@@ -198,7 +238,6 @@ def display(windowSize, champColumns):
 	rightFrame.grid_rowconfigure(2, weight = 1, uniform='row')
 	rightFrame.grid_rowconfigure(3, weight = 10, uniform='row')
 
-	#Middle
 	searchFrame = Frame(middleFrame)
 	searchFrame.grid(row=0, column=0, sticky="nsew")
 	searchFrame.grid_columnconfigure(0, weight = 1, uniform='column')
@@ -213,7 +252,6 @@ def display(windowSize, champColumns):
 	for i in range(math.ceil(len(champNames)/champColumns)):
 		champsFrame.grid_rowconfigure(i, weight = 1, uniform='row')
 
-	#Right
 	teamFrame = Frame(rightFrame)
 	teamFrame.grid(row=0, column=0, sticky="nsew")
 	teamFrame.grid_columnconfigure(0, weight = 1, uniform='column')
@@ -240,44 +278,39 @@ def display(windowSize, champColumns):
 	for i in range(8):
 		synergiesFrame.grid_rowconfigure(i, weight = 1, uniform='row')
 
-	champProfiles = {}
 	for i in range(len(champNames)):
 		path = champProfilesFolder + champNames[i] + ".png"
 		image = Image.open(path).resize((54, 54))
 		champProfiles[champNames[i]] = ImageTk.PhotoImage(image)
 
-	levelBars = {}
-	for i in range(len(teamAttributesTypes)):
-		levelBar = displayLevelBar(levelsFrame, teamAttributesTypes, i)
-		levelBars[teamAttributesTypes[i]] = levelBar
+	for i in range(len(champNames)):
+		champLabel = createChamp(champsFrame, int(i/champColumns), i%champColumns, champProfile = champProfiles[champNames[i]], champName = champNames[i])
+		champLabel.bind("<Button-1>", lambda event: clickChamp(event))
+		champLabels[champNames[i]] = champLabel
 
-	synergyChampLabels = []
-	for i in range(4): #selected champ | good vs | bad vs | good with
-		synergyChampLabelsType = {}
-		for champName in champNames:
-			synergyChampLabelType = createChamp(synergiesFrame, champName, champProfiles[champName])
-			if i==0: synergyChampLabelType.bind("<Button-1>", lambda event: clickChosenChamp(event, chosenChampNames, chosenChampLabels, synergyChampLabels, levelBars))
-			synergyChampLabelsType[champName] = synergyChampLabelType
+	for i in range(5):
+		chosenChampLabel = createChamp(teamFrame, 0, i)
+		chosenChampLabel.bind("<Button-1>", lambda event: clickChosenChamp(event))
+		chosenChampLabels.append(chosenChampLabel)
+
+	synergyChampLabelSelected = createChamp(synergiesFrame, 0, 1)
+	synergyChampLabelSelected.bind("<Button-1>", lambda event: clickChosenChamp(event))
+	synergyChampLabels.append([synergyChampLabelSelected])
+	for i in range(3): #selected champ | good vs | bad vs | good with
+		synergyChampLabelsType = []
+		for j in range(5):
+			synergyChampLabelsType.append(createChamp(synergiesFrame, j+2, i))
 		synergyChampLabels.append(synergyChampLabelsType)
 
-	chosenChampNames = []
-	chosenChampLabels = {}
-	for champName in champNames:
-		chosenChampLabel = createChamp(teamFrame, champName, champProfiles[champName])
-		chosenChampLabel.bind("<Button-1>", lambda event: clickChosenChamp(event, chosenChampNames, chosenChampLabels, synergyChampLabels, levelBars))
-		chosenChampLabels[champName] = chosenChampLabel
+	for i in range(len(teamAttributesTypes)):
+		levelBar = displayLevelBar(levelsFrame, i)
+		levelBars[teamAttributesTypes[i]] = levelBar
 
-	champLabels = {}
-	for champName in champNames:
-		champLabel = createChamp(champsFrame, champName, champProfiles[champName])
-		champLabel.bind("<Button-1>", lambda event: clickChamp(event, chosenChampNames, chosenChampLabels, synergyChampLabels, levelBars))
-		champLabels[champName] = champLabel
-
+	displaySearch(searchFrame)
 	displaySynergies(synergiesFrame)
-	displaySearch(searchFrame, champLabels, champColumns)
 	for i in range(len(filterTypes)):
-		displayFilter(leftFrame, champLabels, champColumns, filterTypes, filterLevels, i)
+		displayFilter(leftFrame, i)
 
 	root.mainloop()
 
-display("1800x1000", 10)
+display("1800x1000")
