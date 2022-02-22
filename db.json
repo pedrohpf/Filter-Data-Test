@@ -1,5 +1,4 @@
 {
-	"gitMainPath": "https://raw.githubusercontent.com/pedrohpf/Filter-Data-Test/main/",
 	"filterLevels": ["No Filter", "Medium Filter", "Max Filter"],
 	"champColumns": 10,
 	"filters": {
