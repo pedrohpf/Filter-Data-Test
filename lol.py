@@ -11,7 +11,13 @@ import json
 gitMainPath = "https://raw.githubusercontent.com/pedrohpf/Filter-Data-Test/main/"
 data = requests.get(gitMainPath + "db.json").json()
 
-with open("settings.json") as file:
+settingsPath = "settings.json"
+if not os.path.exists(settingsPath):
+	settings = requests.get(gitMainPath + settingsPath).json()
+	with open(settingsPath, "w") as file:
+		json.dump(settings, file)
+
+with open(settingsPath) as file:
 	settings = json.load(file)
 	settingsTypes = list(data["settings"].keys())
 	settingsType = settingsTypes[settings["selected"]]
@@ -45,8 +51,8 @@ for i in range(len(champNames)):
 	path = champProfilesFolder + champNames[i] + champProfilesExt
 	if not os.path.exists(path):
 		champProfile = requests.get(gitMainPath + path).content
-		with open(path, "wb") as handler:
-			handler.write(champProfile)
+		with open(path, "wb") as file:
+			file.write(champProfile)
 
 #####################################################################################################################
 
