@@ -4,6 +4,7 @@ from PIL import Image, ImageTk
 from io import BytesIO
 import requests
 import math
+import os
 
 data = requests.get("https://raw.githubusercontent.com/pedrohpf/Filter-Data-Test/main/db.json").json()
 filters = data["filters"]
@@ -11,6 +12,20 @@ teamAttributes = data["teamAttributes"]
 champs = data["champs"]
 synergies = data["synergies"]
 nameFilters = [""]
+
+champNames = list(champs.keys())
+filterTypes = list(filters.keys())
+teamAttributesTypes = list(teamAttributes.keys())
+filterLevels = ["No Filter", "Medium Filter", "Max Filter"]
+
+champProfilesFolder = "champProfiles/"
+os.makedirs(champProfilesFolder, exist_ok=True)
+for i in range(len(champNames)):
+	path = champProfilesFolder + champNames[i] + ".png"
+	if not os.path.exists(path):
+		champProfile = requests.get("https://raw.githubusercontent.com/pedrohpf/Filter-Data-Test/main/" + path).content
+		with open(path, "wb") as handler:
+			handler.write(champProfile)
 
 #####################################################################################################################
 
@@ -152,11 +167,6 @@ def displayFilter(root, champLabels, champColumns, filterTypes, filterLevels, i)
 
 #High need of cleaning up, but who's gonna do that?
 def display(windowSize, champColumns):
-	champNames = list(champs.keys())
-	filterTypes = list(filters.keys())
-	teamAttributesTypes = list(teamAttributes.keys())
-	filterLevels = ["No Filter", "Medium Filter", "Max Filter"]
-
 	root = Tk()
 	root.title("Champion Filter")
 	root.geometry(windowSize)
@@ -232,7 +242,8 @@ def display(windowSize, champColumns):
 
 	champProfiles = {}
 	for i in range(len(champNames)):
-		image = Image.open("champProfiles3/" + champNames[i] + ".jpg")
+		path = champProfilesFolder + champNames[i] + ".png"
+		image = Image.open(path).resize((54, 54))
 		champProfiles[champNames[i]] = ImageTk.PhotoImage(image)
 
 	levelBars = {}
@@ -269,4 +280,4 @@ def display(windowSize, champColumns):
 
 	root.mainloop()
 
-display("1200x700", 10)
+display("1800x1000", 10)
