@@ -1,6 +1,28 @@
 {
+	"settings": {
+		"default": {
+			"champColumns": 10,
+			"windowSize": "1200x700",
+			"champProfilesResize": (40, 40),
+			"champProfilesExt": ".jpg",
+			"champProfilesFolder": "champProfiles3/"
+		},
+		"defaultHD": {
+			"champColumns": 10,
+			"windowSize": "1200x700",
+			"champProfilesResize": (40, 40),
+			"champProfilesExt": ".png",
+			"champProfilesFolder": "champProfiles2/"
+		},
+		"biggerHD": {
+			"champColumns": 10,
+			"windowSize": "1800x1000",
+			"champProfilesResize": (54, 54),
+			"champProfilesExt": ".png",
+			"champProfilesFolder": "champProfiles/"
+		},
+	},
 	"filterLevels": ["No Filter", "Medium Filter", "Max Filter"],
-	"champColumns": 10,
 	"filters": {
 		"top": 0,
 		"jgl": 0,
