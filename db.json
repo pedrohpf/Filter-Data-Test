@@ -4,17 +4,10 @@
 			"champColumns": 10,
 			"windowSize": "1200x700",
 			"champProfilesResize": [40, 40],
-			"champProfilesExt": ".jpg",
-			"champProfilesFolder": "champProfiles3/"
-		},
-		"defaultHD": {
-			"champColumns": 10,
-			"windowSize": "1200x700",
-			"champProfilesResize": [40, 40],
 			"champProfilesExt": ".png",
-			"champProfilesFolder": "champProfiles2/"
+			"champProfilesFolder": "champProfiles/"
 		},
-		"biggerHD": {
+		"bigger": {
 			"champColumns": 10,
 			"windowSize": "1800x1000",
 			"champProfilesResize": [54, 54],
